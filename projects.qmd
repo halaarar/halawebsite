@@ -1,0 +1,46 @@
+---
+title: "Projects"
+---
+more details on my project
+# My Projects
+Some projects i did summarised: blah blah 
+
+### Health Science Calculator
+links that takes you to the project section of this
+link that takes you to the github page
+
+This package healthsciencecalculator.py is designed to provide tools for calculating and analyzing important health metrics. It aims to support health professionals, researchers, and fitness enthusiasts by offering reliable functions to convert relevant units, compute Total Daily Energy Expenditure (TDEE), Basal Metabolic Rate (BMR), and Body Mass Index (BMI).
+
+### Bank Marketing predictions (BLank)
+links that takes you to the project section of this
+link that takes you to the github page
+
+This project aims to enhance bank marketing campaigns by using machine learning to predict whether a customer will subscribe to a term deposit based on demographic and campaign-related data. The goal is to develop a model that can more effectively target potential customers, improving resource allocation and reducing marketing costs by excluding unlikely subscribers.
+
+
+
+•	Developed predictive models using Python to analyze bank marketing datasets and predict customer responses to marketing campaigns.
+•	Collaborated with a team to clean data, implement machine learning algorithms, and evaluate model performance. 
+•	GitHub Repository: https://github.com/UBC-MDS/BankMarketingPreditions-
+
+
+### Credit Card Default Prediction Project
+links that takes you to the project section of this
+link that takes you to the github page
+
+•	Analyzed and preprocessed the Default of Credit Card Clients dataset to predict credit card payment defaults.
+•	Implemented decision tree models and hyperparameter tuning to optimize model performance. 
+•	GitHub Repository: https://github.ubc.ca/mds-2024-25/DSCI_573_Lab4_hala_fazeeia/tree/main
+
+
+
+
+### The Data Science Starter Kit - Blog
+links that takes you to the project section of this
+link that takes you to the github page
+
+Welcome to A Beginner’s Guide to Data Science!
+Your starting point to explore the world of data science with beginner-friendly tutorials, tips, and resources.
+
+
+

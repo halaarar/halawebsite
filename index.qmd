@@ -1,0 +1,20 @@
+---
+title: "Hala Arar"
+image: hala-profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hala-arar-9931a615b/
+    - icon: github
+      text: Github
+      href: https://github.com/halaarar
+
+---
+
+
+Hello my name is and welcome to my page 
+
+
+

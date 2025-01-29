@@ -1,0 +1,37 @@
+
+Hello! My name is **Hala Arar**! BLAH BLAH 
+
+# Education 
+
+## Master in Data Science - University of British Columbia (September 2024 - June 2025)
+
+I am passionate about data science. I amcurrently completeling my Master's in data science at the University of British Columbia! I was drawn to this program because I am extremely passionate about statistics and applying these foundations to solve complex real-world problems with the help of machine learning. I have a keen curiosity to understand mathemtical concepts in an interdisciplinary approach espeically in health care and finance.  
+
+Through the program, I have developed the following skills: Python, RStudio, version control, SQL, data visulaization, algorithms and data structures, Statistics, and Supervised machine learning. I also got the oppurtunity to work with others on several projects. You can find more details about these [Projects](projects.qmd) . Additionally, I will be working on a capstone project for a real company to solve a real life problem. 
+
+## Bachelor's in Biomedical Sciences - Trent University (September 2020 - April 2024)
+
+### Biomedical Sciences
+
+I completed my undergraduate degree in biomedical sciences with a minor in mathematics at Trent University. I was deeply curious about biological systems but I stil had a passion for mathematical concepts. I decided to complete a degree that combines aspects of both my passions in one. Some things tha i did: I got into trent with an entrance scholar ship for acheiving a enterance averange of between 90 - 95% which I was able to maintain for the entirety of my undergrad.I was also on the dean's honour roll, and received a certificate for each year and semester I was there. 
+Finally, one of my proudest moments is when I acheived a 100% in two statistics courses when I came in with no statistcial background.  
+
+I've always been drawn to an itnerdisciplinary approach to life. What drew me to health care is ability connect other living beings on a level deeper than the superficial. I want to understand how life works and the capacity of our bodies to keep us going. During my undergraduate degree, I completed many classes that cover many several concepts like the following: human and anaimal anatomy and physiology, histology, molecular biology, , Evolution, Nutrition,  psychology, cell biology, biomedical ethics, microbiology, , genetics. 
+
+### Chemistry 
+
+Intro Chem, organic chem 
+protein chemistry and enzymology, Biochemistry
+### Mathematics
+
+calculus, physics, probability, linear algebra, ODE, Euclidian Geometry, Statistics, Discrete Structures, Linear programming,  
+
+### Finance 
+
+financial accounting, global Finance,
+
+Personal interest in finance: BLAH BLAH I love investing and learning about stocks, GICs, mututal funds, ETFs, 
+
+
+
+

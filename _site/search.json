@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hala Arar",
+    "section": "",
+    "text": "Hello my name is and welcome to my page"
+  },
+  {
+    "objectID": "index.html#explore-my-site",
+    "href": "index.html#explore-my-site",
+    "title": "Hala Arar",
+    "section": "Explore My Site",
+    "text": "Explore My Site\n\nAbout Me: Learn about my background, skills, and journey into data science.\nProjects: Check out the technical projects I’ve worked on.\nContact: Get in touch with me for collaborations or questions."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Hala Arar",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\nPredictive Modeling for Healthcare\n\nBuilt a machine learning model to predict patient outcomes using Python and scikit-learn.\nView Project\n\n\n\nInteractive Data Visualization Dashboard\n\nCreated a Shiny dashboard to visualize environmental trends.\nView Project"
+  },
+  {
+    "objectID": "index.html#lets-collaborate",
+    "href": "index.html#lets-collaborate",
+    "title": "Hala Arar",
+    "section": "Let’s Collaborate!",
+    "text": "Let’s Collaborate!\nI’m always excited to connect with like-minded individuals. Feel free to explore my Projects or Contact me if you’d like to collaborate!"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "more details on my project # My Projects Some projects i did summarised: blah blah\n\nHealth Science Calculator\nlinks that takes you to the project section of this link that takes you to the github page\nThis package healthsciencecalculator.py is designed to provide tools for calculating and analyzing important health metrics. It aims to support health professionals, researchers, and fitness enthusiasts by offering reliable functions to convert relevant units, compute Total Daily Energy Expenditure (TDEE), Basal Metabolic Rate (BMR), and Body Mass Index (BMI).\n\n\nBank Marketing predictions (BLank)\nlinks that takes you to the project section of this link that takes you to the github page\nThis project aims to enhance bank marketing campaigns by using machine learning to predict whether a customer will subscribe to a term deposit based on demographic and campaign-related data. The goal is to develop a model that can more effectively target potential customers, improving resource allocation and reducing marketing costs by excluding unlikely subscribers.\n• Developed predictive models using Python to analyze bank marketing datasets and predict customer responses to marketing campaigns. • Collaborated with a team to clean data, implement machine learning algorithms, and evaluate model performance. • GitHub Repository: https://github.com/UBC-MDS/BankMarketingPreditions-\n\n\nCredit Card Default Prediction Project\nlinks that takes you to the project section of this link that takes you to the github page\n• Analyzed and preprocessed the Default of Credit Card Clients dataset to predict credit card payment defaults. • Implemented decision tree models and hyperparameter tuning to optimize model performance. • GitHub Repository: https://github.ubc.ca/mds-2024-25/DSCI_573_Lab4_hala_fazeeia/tree/main\n\n\nThe Data Science Starter Kit - Blog\nlinks that takes you to the project section of this link that takes you to the github page\nWelcome to A Beginner’s Guide to Data Science! Your starting point to explore the world of data science with beginner-friendly tutorials, tips, and resources."
+  },
+  {
+    "objectID": "projects.html#project-1-predictive-modeling",
+    "href": "projects.html#project-1-predictive-modeling",
+    "title": "Projects",
+    "section": "Project 1: Predictive Modeling",
+    "text": "Project 1: Predictive Modeling\n\nDescription: Built a predictive model to forecast stock prices using Python.\nTools: Python, Pandas, scikit-learn\nLink: GitHub Repository"
+  },
+  {
+    "objectID": "projects.html#project-2-data-visualization-dashboard",
+    "href": "projects.html#project-2-data-visualization-dashboard",
+    "title": "Projects",
+    "section": "Project 2: Data Visualization Dashboard",
+    "text": "Project 2: Data Visualization Dashboard\n\nDescription: Created an interactive dashboard to visualize global environmental data.\nTools: R, Shiny, ggplot2\nLink: GitHub Repository"
+  },
+  {
+    "objectID": "index.html#explore-my-projects",
+    "href": "index.html#explore-my-projects",
+    "title": "Hala Arar",
+    "section": "Explore my projects:",
+    "text": "Explore my projects:"
+  },
+  {
+    "objectID": "About.html",
+    "href": "About.html",
+    "title": "Education",
+    "section": "",
+    "text": "Hello! My name is Hala Arar! BLAH BLAH"
+  },
+  {
+    "objectID": "About.html#master-in-data-science---university-of-british-columbia-september-2024---june-2025",
+    "href": "About.html#master-in-data-science---university-of-british-columbia-september-2024---june-2025",
+    "title": "Education",
+    "section": "Master in Data Science - University of British Columbia (September 2024 - June 2025)",
+    "text": "Master in Data Science - University of British Columbia (September 2024 - June 2025)\nI am passionate about data science. I amcurrently completeling my Master’s in data science at the University of British Columbia! I was drawn to this program because I am extremely passionate about statistics and applying these foundations to solve complex real-world problems with the help of machine learning. I have a keen curiosity to understand mathemtical concepts in an interdisciplinary approach espeically in health care and finance.\nThrough the program, I have developed the following skills: Python, RStudio, version control, SQL, data visulaization, algorithms and data structures, Statistics, and Supervised machine learning. I also got the oppurtunity to work with others on several projects. You can find more details about these Projects . Additionally, I will be working on a capstone project for a real company to solve a real life problem.\nSome projects i did summarised: blah blah\n\nHealth Science Calculator\nlinks that takes you to the project section of this link that takes you to the github page\nThis package healthsciencecalculator.py is designed to provide tools for calculating and analyzing important health metrics. It aims to support health professionals, researchers, and fitness enthusiasts by offering reliable functions to convert relevant units, compute Total Daily Energy Expenditure (TDEE), Basal Metabolic Rate (BMR), and Body Mass Index (BMI).\n\n\nBank Marketing predictions (BLank)\nlinks that takes you to the project section of this link that takes you to the github page\nThis project aims to enhance bank marketing campaigns by using machine learning to predict whether a customer will subscribe to a term deposit based on demographic and campaign-related data. The goal is to develop a model that can more effectively target potential customers, improving resource allocation and reducing marketing costs by excluding unlikely subscribers.\n• Developed predictive models using Python to analyze bank marketing datasets and predict customer responses to marketing campaigns. • Collaborated with a team to clean data, implement machine learning algorithms, and evaluate model performance. • GitHub Repository: https://github.com/UBC-MDS/BankMarketingPreditions-\n\n\nCredit Card Default Prediction Project\nlinks that takes you to the project section of this link that takes you to the github page\n• Analyzed and preprocessed the Default of Credit Card Clients dataset to predict credit card payment defaults. • Implemented decision tree models and hyperparameter tuning to optimize model performance. • GitHub Repository: https://github.ubc.ca/mds-2024-25/DSCI_573_Lab4_hala_fazeeia/tree/main\n\n\nThe Data Science Starter Kit - Blog\nlinks that takes you to the project section of this link that takes you to the github page\nWelcome to A Beginner’s Guide to Data Science! Your starting point to explore the world of data science with beginner-friendly tutorials, tips, and resources."
+  },
+  {
+    "objectID": "About.html#bachelors-in-biomedical-sciences---trent-university-september-2020---april-2024",
+    "href": "About.html#bachelors-in-biomedical-sciences---trent-university-september-2020---april-2024",
+    "title": "Education",
+    "section": "Bachelor’s in Biomedical Sciences - Trent University (September 2020 - April 2024)",
+    "text": "Bachelor’s in Biomedical Sciences - Trent University (September 2020 - April 2024)\n\nBiomedical Sciences\nI completed my undergraduate degree in biomedical sciences with a minor in mathematics at Trent University. I was deeply curious about biological systems but I stil had a passion for mathematical concepts. I decided to complete a degree that combines aspects of both my passions in one. Some things tha i did: I got into trent with an entrance scholar ship for acheiving a enterance averange of between 90 - 95% which I was able to maintain for the entirety of my undergrad.I was also on the dean’s honour roll, and received a certificate for each year and semester I was there. Finally, one of my proudest moments is when I acheived a 100% in two statistics courses when I came in with no statistcial background.\nI’ve always been drawn to an itnerdisciplinary approach to life. What drew me to health care is ability connect other living beings on a level deeper than the superficial. I want to understand how life works and the capacity of our bodies to keep us going. During my undergraduate degree, I completed many classes that cover many several concepts like the following: human and anaimal anatomy and physiology, histology, molecular biology, Biochemistry, Evolution, Nutrition, psychology, cell biology, biomedical ethics, microbiology, protein chemistry and enzymology, genetics.\n\n\nChemistry\nIntro Chem, organic chem\n\n\nMathematics\ncalculus, physics, probability, linear algebra, ODE, Euclidian Geometry, Statistics, Discrete Structures, Linear programming,\n\n\nFinance\nfinancial accounting, global Finance,\nPersonal interest in finance: BLAH BLAH I love investing and learning about stocks, GICs, mututal funds, ETFs,"
+  },
+  {
+    "objectID": "About.html#dental-assistant",
+    "href": "About.html#dental-assistant",
+    "title": "Education",
+    "section": "Dental Assistant",
+    "text": "Dental Assistant\nDuring my fourth year, I got the pleasure to take part in a co-op course to get hands-on experience working in the health care field. I worked as a dental assistent at Park Street Dentsitry. It was an amazing experience! I got to be at the forefront of care. I met indivduals from different walks of life. Addicts recovering from a drug addiction trying to turn their life around by taking out rotten teeth destroyed from years of drug abuse where I was able to emotionally assist by talking through the proccess and calming them down. to young syrian refugee families that have never seen a health care proffesional who I had to translate for because they couldn’t speak english. I developed several skills like care taking, empathy patience, and team work. Additionally, I was able to see all the behind the scenes action that most people don’t get to see and the hard work that all the assistants and technicians do that goes unnoticed. I learned about the importance of cleanlines and blah blah in health care. These are skills that I can bring into the tech field."
+  },
+  {
+    "objectID": "About.html#lab-technichian-assistant",
+    "href": "About.html#lab-technichian-assistant",
+    "title": "Education",
+    "section": "Lab Technichian Assistant",
+    "text": "Lab Technichian Assistant\nAdditionally, in third year I got to be a lab technician assistant. Add what I did, what I learned, and how i can contribute this to data science."
+  },
+  {
+    "objectID": "About.html#host-bartender",
+    "href": "About.html#host-bartender",
+    "title": "Education",
+    "section": "Host & Bartender",
+    "text": "Host & Bartender\nRed Lobster (September 2022 – November 2022) • Provided exceptional guest service, including seating, reservations, and drink preparation • Collaborated with the service team to enhance guest experience • Maintained a positive and welcoming atmosphere"
+  },
+  {
+    "objectID": "About.html#lead-day-camp-counsellor",
+    "href": "About.html#lead-day-camp-counsellor",
+    "title": "Education",
+    "section": "Lead Day Camp Counsellor",
+    "text": "Lead Day Camp Counsellor\nOntario Federation of Anglers and Hunters (June 2022 – September 2022) • Led educational programs focused on environmental conservation. • Used data collection techniques to monitor and report on wildlife activities. was fishing, shoot bow and arrow, shoot guns, trapping and looking for animals, saving turtles,"
+  },
+  {
+    "objectID": "About.html#crew-trainer",
+    "href": "About.html#crew-trainer",
+    "title": "Education",
+    "section": "Crew Trainer",
+    "text": "Crew Trainer\nJCI McDonald’s (October 2018 – August 2022) • Trained new crew members and provided ongoing support • Managed drive-through, delivery, and kitchen operations, • Resolved customer complaints effectively, ensuring quality and customer satisfaction"
+  },
+  {
+    "objectID": "About.html#weight-lifting",
+    "href": "About.html#weight-lifting",
+    "title": "Education",
+    "section": "Weight Lifting",
+    "text": "Weight Lifting"
+  },
+  {
+    "objectID": "Education.html",
+    "href": "Education.html",
+    "title": "Education",
+    "section": "",
+    "text": "Hello! My name is Hala Arar! BLAH BLAH"
+  },
+  {
+    "objectID": "Education.html#master-in-data-science---university-of-british-columbia-september-2024---june-2025",
+    "href": "Education.html#master-in-data-science---university-of-british-columbia-september-2024---june-2025",
+    "title": "Education",
+    "section": "Master in Data Science - University of British Columbia (September 2024 - June 2025)",
+    "text": "Master in Data Science - University of British Columbia (September 2024 - June 2025)\nI am passionate about data science. I amcurrently completeling my Master’s in data science at the University of British Columbia! I was drawn to this program because I am extremely passionate about statistics and applying these foundations to solve complex real-world problems with the help of machine learning. I have a keen curiosity to understand mathemtical concepts in an interdisciplinary approach espeically in health care and finance.\nThrough the program, I have developed the following skills: Python, RStudio, version control, SQL, data visulaization, algorithms and data structures, Statistics, and Supervised machine learning. I also got the oppurtunity to work with others on several projects. You can find more details about these Projects . Additionally, I will be working on a capstone project for a real company to solve a real life problem."
+  },
+  {
+    "objectID": "Education.html#bachelors-in-biomedical-sciences---trent-university-september-2020---april-2024",
+    "href": "Education.html#bachelors-in-biomedical-sciences---trent-university-september-2020---april-2024",
+    "title": "Education",
+    "section": "Bachelor’s in Biomedical Sciences - Trent University (September 2020 - April 2024)",
+    "text": "Bachelor’s in Biomedical Sciences - Trent University (September 2020 - April 2024)\n\nBiomedical Sciences\nI completed my undergraduate degree in biomedical sciences with a minor in mathematics at Trent University. I was deeply curious about biological systems but I stil had a passion for mathematical concepts. I decided to complete a degree that combines aspects of both my passions in one. Some things tha i did: I got into trent with an entrance scholar ship for acheiving a enterance averange of between 90 - 95% which I was able to maintain for the entirety of my undergrad.I was also on the dean’s honour roll, and received a certificate for each year and semester I was there. Finally, one of my proudest moments is when I acheived a 100% in two statistics courses when I came in with no statistcial background.\nI’ve always been drawn to an itnerdisciplinary approach to life. What drew me to health care is ability connect other living beings on a level deeper than the superficial. I want to understand how life works and the capacity of our bodies to keep us going. During my undergraduate degree, I completed many classes that cover many several concepts like the following: human and anaimal anatomy and physiology, histology, molecular biology, , Evolution, Nutrition, psychology, cell biology, biomedical ethics, microbiology, , genetics.\n\n\nChemistry\nIntro Chem, organic chem protein chemistry and enzymology, Biochemistry ### Mathematics\ncalculus, physics, probability, linear algebra, ODE, Euclidian Geometry, Statistics, Discrete Structures, Linear programming,\n\n\nFinance\nfinancial accounting, global Finance,\nPersonal interest in finance: BLAH BLAH I love investing and learning about stocks, GICs, mututal funds, ETFs,"
+  },
+  {
+    "objectID": "Education.html#dental-assistant",
+    "href": "Education.html#dental-assistant",
+    "title": "Education",
+    "section": "Dental Assistant",
+    "text": "Dental Assistant\nDuring my fourth year, I got the pleasure to take part in a co-op course to get hands-on experience working in the health care field. I worked as a dental assistent at Park Street Dentsitry. It was an amazing experience! I got to be at the forefront of care. I met indivduals from different walks of life. Addicts recovering from a drug addiction trying to turn their life around by taking out rotten teeth destroyed from years of drug abuse where I was able to emotionally assist by talking through the proccess and calming them down. to young syrian refugee families that have never seen a health care proffesional who I had to translate for because they couldn’t speak english. I developed several skills like care taking, empathy patience, and team work. Additionally, I was able to see all the behind the scenes action that most people don’t get to see and the hard work that all the assistants and technicians do that goes unnoticed. I learned about the importance of cleanlines and blah blah in health care. These are skills that I can bring into the tech field."
+  },
+  {
+    "objectID": "Education.html#lab-technichian-assistant",
+    "href": "Education.html#lab-technichian-assistant",
+    "title": "Education",
+    "section": "Lab Technichian Assistant",
+    "text": "Lab Technichian Assistant\nAdditionally, in third year I got to be a lab technician assistant. Add what I did, what I learned, and how i can contribute this to data science."
+  },
+  {
+    "objectID": "Education.html#host-bartender",
+    "href": "Education.html#host-bartender",
+    "title": "Education",
+    "section": "Host & Bartender",
+    "text": "Host & Bartender\nRed Lobster (September 2022 – November 2022) • Provided exceptional guest service, including seating, reservations, and drink preparation • Collaborated with the service team to enhance guest experience • Maintained a positive and welcoming atmosphere"
+  },
+  {
+    "objectID": "Education.html#lead-day-camp-counsellor",
+    "href": "Education.html#lead-day-camp-counsellor",
+    "title": "Education",
+    "section": "Lead Day Camp Counsellor",
+    "text": "Lead Day Camp Counsellor\nOntario Federation of Anglers and Hunters (June 2022 – September 2022) • Led educational programs focused on environmental conservation. • Used data collection techniques to monitor and report on wildlife activities. was fishing, shoot bow and arrow, shoot guns, trapping and looking for animals, saving turtles,"
+  },
+  {
+    "objectID": "Education.html#crew-trainer",
+    "href": "Education.html#crew-trainer",
+    "title": "Education",
+    "section": "Crew Trainer",
+    "text": "Crew Trainer\nJCI McDonald’s (October 2018 – August 2022) • Trained new crew members and provided ongoing support • Managed drive-through, delivery, and kitchen operations, • Resolved customer complaints effectively, ensuring quality and customer satisfaction"
+  },
+  {
+    "objectID": "Education.html#weight-lifting",
+    "href": "Education.html#weight-lifting",
+    "title": "Education",
+    "section": "Weight Lifting",
+    "text": "Weight Lifting"
+  },
+  {
+    "objectID": "Work_Experience.html",
+    "href": "Work_Experience.html",
+    "title": "Work Experience",
+    "section": "",
+    "text": "During my fourth year, I got the pleasure to take part in a co-op course to get hands-on experience working in the health care field. I worked as a dental assistent at Park Street Dentsitry. It was an amazing experience! I got to be at the forefront of care. I met indivduals from different walks of life. Addicts recovering from a drug addiction trying to turn their life around by taking out rotten teeth destroyed from years of drug abuse where I was able to emotionally assist by talking through the proccess and calming them down. to young syrian refugee families that have never seen a health care proffesional who I had to translate for because they couldn’t speak english. I developed several skills like care taking, empathy patience, and team work. Additionally, I was able to see all the behind the scenes action that most people don’t get to see and the hard work that all the assistants and technicians do that goes unnoticed. I learned about the importance of cleanlines and blah blah in health care. These are skills that I can bring into the tech field.\n\n\n\nAdditionally, in third year I got to be a lab technician assistant. Add what I did, what I learned, and how i can contribute this to data science.\n\n\n\nRed Lobster (September 2022 – November 2022) • Provided exceptional guest service, including seating, reservations, and drink preparation • Collaborated with the service team to enhance guest experience • Maintained a positive and welcoming atmosphere\n\n\n\nOntario Federation of Anglers and Hunters (June 2022 – September 2022) • Led educational programs focused on environmental conservation. • Used data collection techniques to monitor and report on wildlife activities. was fishing, shoot bow and arrow, shoot guns, trapping and looking for animals, saving turtles,\n\n\n\nJCI McDonald’s (October 2018 – August 2022) • Trained new crew members and provided ongoing support • Managed drive-through, delivery, and kitchen operations, • Resolved customer complaints effectively, ensuring quality and customer satisfaction"
+  },
+  {
+    "objectID": "Work_Experience.html#dental-assistant",
+    "href": "Work_Experience.html#dental-assistant",
+    "title": "Work Experience",
+    "section": "",
+    "text": "During my fourth year, I got the pleasure to take part in a co-op course to get hands-on experience working in the health care field. I worked as a dental assistent at Park Street Dentsitry. It was an amazing experience! I got to be at the forefront of care. I met indivduals from different walks of life. Addicts recovering from a drug addiction trying to turn their life around by taking out rotten teeth destroyed from years of drug abuse where I was able to emotionally assist by talking through the proccess and calming them down. to young syrian refugee families that have never seen a health care proffesional who I had to translate for because they couldn’t speak english. I developed several skills like care taking, empathy patience, and team work. Additionally, I was able to see all the behind the scenes action that most people don’t get to see and the hard work that all the assistants and technicians do that goes unnoticed. I learned about the importance of cleanlines and blah blah in health care. These are skills that I can bring into the tech field."
+  },
+  {
+    "objectID": "Work_Experience.html#lab-technichian-assistant",
+    "href": "Work_Experience.html#lab-technichian-assistant",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Additionally, in third year I got to be a lab technician assistant. Add what I did, what I learned, and how i can contribute this to data science."
+  },
+  {
+    "objectID": "Work_Experience.html#host-bartender",
+    "href": "Work_Experience.html#host-bartender",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Red Lobster (September 2022 – November 2022) • Provided exceptional guest service, including seating, reservations, and drink preparation • Collaborated with the service team to enhance guest experience • Maintained a positive and welcoming atmosphere"
+  },
+  {
+    "objectID": "Work_Experience.html#lead-day-camp-counsellor",
+    "href": "Work_Experience.html#lead-day-camp-counsellor",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Ontario Federation of Anglers and Hunters (June 2022 – September 2022) • Led educational programs focused on environmental conservation. • Used data collection techniques to monitor and report on wildlife activities. was fishing, shoot bow and arrow, shoot guns, trapping and looking for animals, saving turtles,"
+  },
+  {
+    "objectID": "Work_Experience.html#crew-trainer",
+    "href": "Work_Experience.html#crew-trainer",
+    "title": "Work Experience",
+    "section": "",
+    "text": "JCI McDonald’s (October 2018 – August 2022) • Trained new crew members and provided ongoing support • Managed drive-through, delivery, and kitchen operations, • Resolved customer complaints effectively, ensuring quality and customer satisfaction"
+  }
+]
