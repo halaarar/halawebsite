@@ -15,8 +15,7 @@ website:
         text: Work Experience
       - href: Extracurriculars.qmd
         text: Extracurriculars
-      - href: Resume.qmd
-        text: Resume
+
     right:
       - icon: github
         href: https://github.com/halaarar

@@ -1,27 +1,56 @@
 # Work Experience 
 
-## Dental Assistant
+## Dental Assistant - Park Street Dentistry (July 2023 – April 2024)
 
-During my fourth year, I got the pleasure to take part in a co-op course to get hands-on experience working in the health care field. I worked as a dental assistent at Park Street Dentsitry. It was an amazing experience! I got to be at the forefront of care. I met indivduals from different walks of life. Addicts recovering from a drug addiction trying to turn their life around by taking out rotten teeth destroyed from years of drug abuse  where I was able to emotionally assist by talking through the proccess and calming them down. to young syrian refugee families that have never seen a health care proffesional who I had to translate for because they couldn't speak english. I developed several skills like care taking, empathy patience, and team work. Additionally, I was able to see all the behind the scenes action that most people don't get to see and the hard work that all the assistants and technicians do that goes unnoticed. I learned about the importance of cleanlines and blah blah in health care. These are skills that I can bring into the tech field. 
+During my fourth year, I had the incredible opportunity to gain hands-on healthcare experience through a co-op placement as a Dental Assistant. This experience placed me at the forefront of patient care, allowing me to interact with individuals from diverse backgrounds, each with unique challenges.
 
-## Lab Technichian Assistant
+- Assisted in patient care and treatment procedures, ensuring precision and efficiency in a fast-paced healthcare setting.
+- Managed and digitized patient records, improving data accessibility, organization, and compliance with privacy regulations—an experience that reinforced my ability to handle sensitive data with accuracy and security.
+- Provided emotional and procedural support to patients, including those overcoming substance addiction, helping them navigate their treatments and reduce anxiety.
+- Acted as a translator for Syrian refugee families, breaking language barriers to ensure clear communication between patients and healthcare professionals—enhancing my communication and problem-solving skills.
+- Learned and applied infection control, sterilization protocols, and regulatory compliance, which taught me the importance of structured processes, data accuracy, and workflow optimization—key skills in data science and machine learning models.
 
-Additionally, in third year I got to be a lab technician assistant. Add what I did, what I learned, and how i can contribute this to data science. 
+This experience strengthened my ability to work under pressure, handle confidential information, and apply structured problem-solving approaches—valuable skills that directly translate into data-driven fields, where organization, precision, and security are paramount.
 
-## Host & Bartender
-Red Lobster (September 2022 – November 2022)
-• Provided exceptional guest service, including seating, reservations, and drink preparation
-• Collaborated with the service team to enhance guest experience
-• Maintained a positive and welcoming atmosphere
+## Lab Technichian Assistant - Trent University (September 2022 – April 2023)
 
-## Lead Day Camp Counsellor 
-Ontario Federation of Anglers and Hunters (June 2022 – September 2022)
-•	Led educational programs focused on environmental conservation.
-•	Used data collection techniques to monitor and report on wildlife activities.
-was fishing, shoot bow and arrow, shoot guns, trapping and looking for animals, saving turtles, 
+As a Lab Technician Assistant, I had the chance to merge my interests in biomedical research, data analytics, and scientific experimentation. This role gave me hands-on exposure to data collection, organization, and analysis within a controlled laboratory setting.
 
-## Crew Trainer
- JCI McDonald’s (October 2018 – August 2022) 
-•	Trained new crew members and provided ongoing support 
-•	Managed drive-through, delivery, and kitchen operations, 
-•	Resolved customer complaints effectively, ensuring quality and customer satisfaction
+- Prepared laboratory equipment and materials for research experiments, ensuring proper setup and functionality.
+- Measured, mixed, and prepared chemical solutions and biological samples, following precise protocols to maintain experimental accuracy.
+- Maintained detailed laboratory records, logging observations and documenting experimental procedures—honing my data organization and reporting skills.
+- Labeled and stored biological samples, ensuring proper inventory tracking and retrieval, reinforcing data management best practices.
+- Performed routine maintenance and quality checks on lab equipment, troubleshooting minor issues to ensure uninterrupted workflows.
+- Assisted in organizing research data, compiling notes and observations for researchers—an early exposure to data structuring and reporting.
+- Followed strict safety and hygiene protocols, demonstrating precision and compliance—skills that are essential for handling sensitive data and maintaining clean code in programming environments.
+
+This experience strengthened my attention to detail, ability to follow structured workflows, and proficiency in handling and documenting data, all of which are crucial skills in data science and analytics roles.
+
+## Host & Bartender - Red Lobster (September 2022 – November 2022)
+
+Working in a fast-paced hospitality environment, I developed strong organizational, problem-solving, and communication skills that are valuable in data-driven fields.
+
+- Provided exceptional guest service, managing seating, reservations, and drink preparation while optimizing workflows.
+- Collaborated with the service team to enhance the guest experience—improving operational efficiency through structured task management.
+- Handled high-pressure situations, ensuring seamless customer interactions—a skill crucial in data-driven problem-solving and real-time analytics.
+
+## Lead Day Camp Counsellor - Ontario Federation of Anglers and Hunters (June 2022 – September 2022)
+
+This role combined education, environmental data collection, and leadership, allowing me to develop skills in  data collection and problem-solving.
+
+- Led educational programs on environmental conservation, translating complex ecological concepts into engaging and digestible content—a skill directly applicable to data storytelling and visualization.
+- Collected and analyzed wildlife activity data, applying field research techniques to understand trends in local animal populations—an early exposure to data collection, processing, and real-world analytics.
+- Engaged in hands-on conservation efforts, including saving turtles, tracking animal behavior, and learning outdoor survival techniques.
+- Applied structured methodologies to data documentation and reporting, ensuring that findings were recorded and presented accurately.
+
+This role strengthened my ability to analyze environmental data, communicate findings effectively, and work collaboratively on real-world conservation projects—all of which are highly transferable to data science and analytics roles.
+
+## Crew Trainer – JCI McDonald’s (October 2018 – August 2022)
+
+My role as a Crew Trainer required structured workflow management, data-driven decision-making, and process optimization, all of which align with problem-solving in data analytics.
+
+- Trained new crew members, breaking down complex tasks into structured and repeatable training processes—a skill applicable to documenting workflows in data science projects.
+- Managed drive-through, delivery, and kitchen workflows, optimizing time-sensitive processes, ensuring high customer throughput, and applying efficiency improvements that mirror process optimization in data pipelines.
+- Handled customer complaints and real-time problem resolution, demonstrating quick analytical thinking and the ability to extract key insights from multiple inputs—similar to debugging models and troubleshooting data quality issues.
+
+This role refined my leadership, problem-solving, and process optimization skills, which are valuable in data-driven decision-making, workflow automation, and software development.

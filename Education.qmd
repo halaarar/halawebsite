@@ -1,37 +1,52 @@
-
-Hello! My name is **Hala Arar**! BLAH BLAH 
-
 # Education 
 
 ## Master in Data Science - University of British Columbia (September 2024 - June 2025)
 
-I am passionate about data science. I amcurrently completeling my Master's in data science at the University of British Columbia! I was drawn to this program because I am extremely passionate about statistics and applying these foundations to solve complex real-world problems with the help of machine learning. I have a keen curiosity to understand mathemtical concepts in an interdisciplinary approach espeically in health care and finance.  
+I am currently pursuing my Master's in Data Science at the University of British Columbia, driven by my passion for statistics and machine learning. I was drawn to this program because of my strong interest in solving complex real-world problems using data-driven insights—particularly in healthcare and finance.
 
-Through the program, I have developed the following skills: Python, RStudio, version control, SQL, data visulaization, algorithms and data structures, Statistics, and Supervised machine learning. I also got the oppurtunity to work with others on several projects. You can find more details about these [Projects](projects.qmd) . Additionally, I will be working on a capstone project for a real company to solve a real life problem. 
+I have a deep curiosity for mathematical concepts and their interdisciplinary applications, and this program has allowed me to refine my skills in:
+
+- Programming: Python, R
+- Data Engineering: SQL, version control (Git)
+- Machine Learning: Supervised learning, algorithms & data structures
+- Data Analysis & Visualization: Pandas, NumPy, Matplotlib, Seaborn
+- Statistical Foundations: Experimental design, hypothesis testing, probability
+
+Throughout the program, I’ve worked on collaborative projects, applying these skills to real-world datasets. You can find more details on my Projects page. Additionally, I will be working on a capstone project with an industry partner to tackle a real-world business challenge using data science.
+
+
 
 ## Bachelor's in Biomedical Sciences - Trent University (September 2020 - April 2024)
 
-### Biomedical Sciences
+I completed my undergraduate degree in Biomedical Sciences with a Minor in Mathematics at Trent University. My academic journey was shaped by my dual passion for biology and mathematics, which led me to a degree that merges both disciplines.
 
-I completed my undergraduate degree in biomedical sciences with a minor in mathematics at Trent University. I was deeply curious about biological systems but I stil had a passion for mathematical concepts. I decided to complete a degree that combines aspects of both my passions in one. Some things tha i did: I got into trent with an entrance scholar ship for acheiving a enterance averange of between 90 - 95% which I was able to maintain for the entirety of my undergrad.I was also on the dean's honour roll, and received a certificate for each year and semester I was there. 
-Finally, one of my proudest moments is when I acheived a 100% in two statistics courses when I came in with no statistcial background.  
+### Academic Achievements
+- Awarded a Renewable Entrance Scholarship for maintaining a high academic standing (90-95% entry average).
+- Consistently placed on the Dean’s Honour Roll, earning recognition each semester.
+- Achieved a perfect 100% in two advanced statistics courses—despite entering with no prior statistical background.
 
-I've always been drawn to an itnerdisciplinary approach to life. What drew me to health care is ability connect other living beings on a level deeper than the superficial. I want to understand how life works and the capacity of our bodies to keep us going. During my undergraduate degree, I completed many classes that cover many several concepts like the following: human and anaimal anatomy and physiology, histology, molecular biology, , Evolution, Nutrition,  psychology, cell biology, biomedical ethics, microbiology, , genetics. 
-
-### Chemistry 
-
-Intro Chem, organic chem 
-protein chemistry and enzymology, Biochemistry
-### Mathematics
-
-calculus, physics, probability, linear algebra, ODE, Euclidian Geometry, Statistics, Discrete Structures, Linear programming,  
-
-### Finance 
-
-financial accounting, global Finance,
-
-Personal interest in finance: BLAH BLAH I love investing and learning about stocks, GICs, mututal funds, ETFs, 
+### Scientific & Mathematical Foundations
+During my degree, I explored various disciplines, gaining a solid understanding of biological, chemical, and mathematical principles relevant to data science and healthcare analytics.
 
 
+#### Biomedical Sciences
+- Human & Animal Anatomy and Physiology
+- Histology, Molecular Biology, Cell Biology, Genetics
+- Microbiology, Biomedical Ethics, Evolution, Nutrition
+- Psychology & Neuroscience
 
+#### Chemistry
+- Introductory Chemistry, Organic Chemistry
+- Protein Chemistry & Enzymology, Biochemistry
+
+#### Mathematics & Statistics
+- Calculus I & II, Linear Algebra, Euclidean Geometry
+- Ordinary Differential Equations (ODEs), Discrete Structures
+- Probability & Applied Statistics, Linear Programming
+
+
+#### Finance & Accounting
+- Financial Accounting, Global Finance
+- Personal Interest: I am passionate about investing and financial markets, regularly exploring stocks, ETFs, mutual funds, and GICs.
+My background in biomedical sciences, mathematics, and finance has given me a unique interdisciplinary perspective, allowing me to bridge data science with healthcare and business analytics.
 
