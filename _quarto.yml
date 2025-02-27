@@ -15,8 +15,6 @@ website:
             text: Health Science Calculator
           - href: projects/bank_marketing_predictions.qmd
             text: Bank Marketing Prediction
-          - href: projects/credit_card_default.qmd
-            text: Credit Card Default Prediction
           - href: projects/nyc_arrest_dashboard.qmd
             text: NYC Arrest Dashboard
           - href: projects/data_science_starter_kit.qmd

@@ -1,26 +1,75 @@
+---
+title: "The Data Science Starter Kit - Blog"
+image: "../images/blog.png"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hala-arar-9931a615b/
+    - icon: github
+      text: Github
+      href: https://github.com/halaarar
+    - icon: envelope
+      text: Email
+      href: mailto:halaosama92@yahoo.com
+---
 
-## The Data Science Starter Kit - Blog
-Overview
-A beginner-friendly blog designed to help aspiring data scientists get started with fundamental concepts and practical tools.
-
-What I Did:
-✔ Authored blog posts covering topics such as Git & version control, data visualization, and statistical analysis.
-✔ Developed tutorials and code examples to guide beginners through key data science workflows.
-✔ Created a promotional video to increase community engagement and drive traffic to the blog.
-✔ Maintained a GitHub repository for code snippets, datasets, and Jupyter notebooks.
-✔ Collaborated with peers to expand content and ensure clarity for diverse audiences.
-
-Technologies & Skills Used:
-📌 Python | R | Git & Version Control | Data Visualization | Educational Content Creation | Technical Writing
-
-
-
-Ongoing & Future Projects
-NYPD Arrest Tracker App (Work in Progress)
-A dashboard designed for NYC government executives to track and analyze NYPD arrest metrics using real 2023 arrest data.
-
-✔ Developing interactive data visualizations (maps, bar charts, time-series charts) using Plotly and Seaborn.
-✔ Designing a user-friendly dashboard with Dash for real-time data exploration.
-✔ Implementing filtering options to dynamically analyze crime trends by borough, precinct, and crime type.
+<div class="center-content">
+<a href="https://github.com/halaarar/Data-Science-Starter-Kit-Blog">
+    <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository">
+</a>
+<div>
 
 
+--- 
+
+## Overview
+The **Data Science Starter Kit Blog** is a **beginner-friendly** resource designed to help aspiring data scientists navigate **fundamental concepts** and practical tools.  
+
+This project aims to **simplify the learning process** by offering **step-by-step tutorials, code examples, and educational content** to build a strong foundation in data science.
+
+---
+
+## Project Goals & Contributions
+
+- **Authored educational blog posts** covering topics such as:
+  - **Git & Version Control** – Managing and tracking code efficiently.
+  - **Data Visualization** – Using Python libraries for storytelling with data.
+- **Developed hands-on tutorials and code examples**, guiding beginners through essential data science workflows.
+- **Maintained a GitHub repository** with **code snippets, datasets, and Jupyter Notebooks** to complement the blog content.
+- **Created a promotional video** to increase engagement and drive traffic to the blog.
+
+---
+
+## Technical Implementation
+
+### **Technologies & Skills Used**
+- **Python** – Writing clean and reproducible code.  
+- **Git & GitHub** – Implementing version control for collaboration and project tracking.  
+- **Technical Writing** – Explaining complex topics in an accessible way.  
+- **Content Creation & Video Editing** – Producing engaging educational material.  
+
+---
+
+
+## Key Takeaways & Impact
+
+Through this project, I strengthened my skills in:
+- **Technical Communication** – Writing clear, structured explanations for data science concepts.
+- **Software Development & Best Practices** – Using GitHub for version control and project management.
+- **Educational Content Creation** – Designing learning materials for data science beginners.
+- **Community Engagement** – Promoting knowledge-sharing through accessible online resources.
+
+
+[Github Repository](https://github.com/halaarar/Data-Science-Starter-Kit-Blog){.btn .btn-outline-dark}
+
+[Read the Blog](https://halaarar.github.io/Data-Science-Starter-Kit-Blog/){.btn .btn-outline-dark}
+
+[Watch the Promotional Video](https://drive.google.com/file/d/1cwdyqlWMguUOHnBxjPJ_GtGnmUtWNqyC/view?usp=sharing){.btn .btn-outline-dark}
+
+---
+
+
+
+[⬅ Back to Projects](../projects.qmd)

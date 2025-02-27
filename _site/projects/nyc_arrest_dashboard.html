@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>nyc_arrest_dashboard – Hala Arar | Data Science Portfolio</title>
+<title>NYPD Arrest Tracker App (Work in Progress) – Hala Arar | Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dd08061cb7210c315e315379d94beb87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -106,10 +105,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Bank Marketing Prediction</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projects/credit_card_default.html">
- <span class="dropdown-text">Credit Card Default Prediction</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="../projects/nyc_arrest_dashboard.html">
  <span class="dropdown-text">NYC Arrest Dashboard</span></a>
   </li>  
@@ -161,15 +156,116 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<div class="quarto-about-jolla column-page">
+  <img src="../images/nypd.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">NYPD Arrest Tracker App (Work in Progress)</h1>
+</div>
+<div class="quarto-title-meta column-page">
+  </div>
+</header><main class="content column-page" id="quarto-document-content">
+<div class="center-content">
+<a href="https://github.com/UBC-MDS/DSCI-532_2025_22_nyc-arrest-tracker"> <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository"> </a>
+<div>
+<hr>
+<section id="overview" class="level2">
+<h2 data-anchor-id="overview">Overview</h2>
+<p>The <strong>NYPD Arrest Tracker App</strong> is a <strong>collaborative data science project</strong> aimed at providing <strong>NYC government executives</strong> with a <strong>unified dashboard</strong> for monitoring <strong>arrest statistics</strong> across the city.</p>
+<p>The goal of this project was to create an <strong>interactive and data-driven tool</strong> that allows policymakers to <strong>track trends, analyze arrest data, and make evidence-based decisions</strong> regarding law enforcement and public safety initiatives.</p>
+<hr>
+</section>
+<section id="project-goals-contributions" class="level2">
+<h2 data-anchor-id="project-goals-contributions">Project Goals &amp; Contributions</h2>
+<p>This project was designed to address the challenges of inconsistent, redundant, and fragmented arrest data across various NYC departments. Our solution provides a centralized and interactive dashboard that allows policymakers to:</p>
+<ul>
+<li><strong>Monitor Trends</strong> – Track the evolution of arrest rates across different crime types, demographics, and locations.</li>
+<li><strong>Enhance Decision-Making</strong> – Use data-driven insights to inform policy changes and resource allocation.</li>
+<li><strong>Optimize Law Enforcement Initiatives</strong> – Measure the effectiveness of public safety campaigns.</li>
+<li><strong>Improve Data Accessibility</strong> – Consolidate arrest statistics into a single, intuitive visualization tool.</li>
+</ul>
+<hr>
+</section>
+<section id="technical-implementation" class="level2">
+<h2 data-anchor-id="technical-implementation">Technical Implementation</h2>
+<section id="data-processing-engineering" class="level3">
+<h3 data-anchor-id="data-processing-engineering">Data Processing &amp; Engineering</h3>
+<ul>
+<li><strong>Cleaned and structured</strong> arrest data for efficient visualization.</li>
+<li><strong>Handled missing values and standardized variables</strong> for accuracy.</li>
+<li><strong>Optimized data formats</strong> for interactive dashboard integration.</li>
+</ul>
+</section>
+<section id="dashboard-development" class="level3">
+<h3 data-anchor-id="dashboard-development">Dashboard Development</h3>
+<ul>
+<li><strong>Built interactive visualizations</strong> using Plotly &amp; Dash.</li>
+<li><strong>Implemented data filtering</strong> to allow customized user analysis.</li>
+<li><strong>Optimized map rendering</strong> for smooth, real-time exploration.</li>
+</ul>
+</section>
+<section id="deployment-uiux" class="level3">
+<h3 data-anchor-id="deployment-uiux">Deployment &amp; UI/UX</h3>
+<ul>
+<li><strong>Containerized dashboard using Docker</strong> for seamless deployment.</li>
+<li><strong>Designed user-friendly navigation</strong> for intuitive decision-making.</li>
+</ul>
+</section>
+</section>
+<section id="app-sketch-design" class="level2">
+<h2 data-anchor-id="app-sketch-design">App Sketch &amp; Design</h2>
+<p><img src="../images/nyc.png" class="img-fluid"></p>
+<p>The dashboard consists of:</p>
+<ul>
+<li><strong>Interactive NYC Map</strong> – Displays precinct-level arrest data.<br>
+</li>
+<li><strong>Bar Chart</strong> – Visualizes crime frequency with drill-down capabilities.<br>
+</li>
+<li><strong>Time-Series Density Plot</strong> – Tracks arrest trends across time.<br>
+</li>
+<li><strong>Pie Charts</strong> – Show arrest distributions by age and gender.<br>
+</li>
+<li><strong>Sidebar</strong> – Allows filtering by date, location, and crime type.</li>
+</ul>
+<p>This structured design ensures fast and intuitive exploration of arrest trends.</p>
+</section>
+<section id="key-takeaways-impact" class="level2">
+<h2 data-anchor-id="key-takeaways-impact">Key Takeaways &amp; Impact</h2>
+<p>Through this project, I gained experience in:</p>
+<ul>
+<li><strong>Data Engineering</strong> – Processing large-scale NYC arrest records.</li>
+<li><strong>Data Visualization</strong> – Developing interactive dashboards for government use.</li>
+<li><strong>Policy Analytics</strong> – Using data science to drive public safety decisions.</li>
+<li><strong>Public Sector UI/UX</strong> – Creating user-friendly tools for non-technical stakeholders.</li>
+</ul>
+<p>This project highlights the real-world impact of data science in law enforcement and public policy.</p>
+<p><a href="https://github.com/UBC-MDS/DSCI-532_2025_22_nyc-arrest-tracker" class="btn btn-outline-dark">Github Repository</a></p>
+<hr>
+<p><a href="../projects.html">⬅ Back to Projects</a></p>
 
 
-
-
-
-
-
-</main> <!-- /main -->
+</section>
+</div>
+</div>
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://www.linkedin.com/in/hala-arar-9931a615b/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/halaarar" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="mailto:halaosama92@yahoo.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -190,13 +286,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

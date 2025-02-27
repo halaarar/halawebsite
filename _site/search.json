@@ -163,23 +163,23 @@
   {
     "objectID": "projects/data_science_starter_kit.html",
     "href": "projects/data_science_starter_kit.html",
-    "title": "Hala Arar | Data Science Portfolio",
+    "title": "The Data Science Starter Kit - Blog",
     "section": "",
-    "text": "Overview A beginner-friendly blog designed to help aspiring data scientists get started with fundamental concepts and practical tools.\nWhat I Did: ✔ Authored blog posts covering topics such as Git & version control, data visualization, and statistical analysis. ✔ Developed tutorials and code examples to guide beginners through key data science workflows. ✔ Created a promotional video to increase community engagement and drive traffic to the blog. ✔ Maintained a GitHub repository for code snippets, datasets, and Jupyter notebooks. ✔ Collaborated with peers to expand content and ensure clarity for diverse audiences.\nTechnologies & Skills Used: 📌 Python | R | Git & Version Control | Data Visualization | Educational Content Creation | Technical Writing\nOngoing & Future Projects NYPD Arrest Tracker App (Work in Progress) A dashboard designed for NYC government executives to track and analyze NYPD arrest metrics using real 2023 arrest data.\n✔ Developing interactive data visualizations (maps, bar charts, time-series charts) using Plotly and Seaborn. ✔ Designing a user-friendly dashboard with Dash for real-time data exploration. ✔ Implementing filtering options to dynamically analyze crime trends by borough, precinct, and crime type."
+    "text": "The Data Science Starter Kit Blog is a beginner-friendly resource designed to help aspiring data scientists navigate fundamental concepts and practical tools.\nThis project aims to simplify the learning process by offering step-by-step tutorials, code examples, and educational content to build a strong foundation in data science.\n\n\n\n\n\nAuthored educational blog posts covering topics such as:\n\nGit & Version Control – Managing and tracking code efficiently.\nData Visualization – Using Python libraries for storytelling with data.\n\nDeveloped hands-on tutorials and code examples, guiding beginners through essential data science workflows.\nMaintained a GitHub repository with code snippets, datasets, and Jupyter Notebooks to complement the blog content.\nCreated a promotional video to increase engagement and drive traffic to the blog.\n\n\n\n\n\n\n\n\nPython – Writing clean and reproducible code.\n\nGit & GitHub – Implementing version control for collaboration and project tracking.\n\nTechnical Writing – Explaining complex topics in an accessible way.\n\nContent Creation & Video Editing – Producing engaging educational material.\n\n\n\n\n\n\nThrough this project, I strengthened my skills in: - Technical Communication – Writing clear, structured explanations for data science concepts. - Software Development & Best Practices – Using GitHub for version control and project management. - Educational Content Creation – Designing learning materials for data science beginners. - Community Engagement – Promoting knowledge-sharing through accessible online resources.\nGithub Repository\nRead the Blog\nWatch the Promotional Video\n\n⬅ Back to Projects"
   },
   {
     "objectID": "projects/data_science_starter_kit.html#the-data-science-starter-kit---blog",
     "href": "projects/data_science_starter_kit.html#the-data-science-starter-kit---blog",
-    "title": "Hala Arar | Data Science Portfolio",
+    "title": "The Data Science Starter Kit - Blog",
     "section": "",
-    "text": "Overview A beginner-friendly blog designed to help aspiring data scientists get started with fundamental concepts and practical tools.\nWhat I Did: ✔ Authored blog posts covering topics such as Git & version control, data visualization, and statistical analysis. ✔ Developed tutorials and code examples to guide beginners through key data science workflows. ✔ Created a promotional video to increase community engagement and drive traffic to the blog. ✔ Maintained a GitHub repository for code snippets, datasets, and Jupyter notebooks. ✔ Collaborated with peers to expand content and ensure clarity for diverse audiences.\nTechnologies & Skills Used: 📌 Python | R | Git & Version Control | Data Visualization | Educational Content Creation | Technical Writing\nOngoing & Future Projects NYPD Arrest Tracker App (Work in Progress) A dashboard designed for NYC government executives to track and analyze NYPD arrest metrics using real 2023 arrest data.\n✔ Developing interactive data visualizations (maps, bar charts, time-series charts) using Plotly and Seaborn. ✔ Designing a user-friendly dashboard with Dash for real-time data exploration. ✔ Implementing filtering options to dynamically analyze crime trends by borough, precinct, and crime type."
+    "text": "Overview A beginner-friendly blog designed to help aspiring data scientists get started with fundamental concepts and practical tools.\nWhat I Did: ✔ Authored blog posts covering topics such as Git & version control, data visualization, and statistical analysis. ✔ Developed tutorials and code examples to guide beginners through key data science workflows. ✔ Created a promotional video to increase community engagement and drive traffic to the blog. ✔ Maintained a GitHub repository for code snippets, datasets, and Jupyter notebooks. ✔ Collaborated with peers to expand content and ensure clarity for diverse audiences.\nTechnologies & Skills Used: 📌 Python | R | Git & Version Control | Data Visualization | Educational Content Creation | Technical Writing\nOngoing & Future Projects NYPD Arrest Tracker App (Work in Progress) A dashboard designed for NYC government executives to track and analyze NYPD arrest metrics using real 2023 arrest data.\n✔ Developing interactive data visualizations (maps, bar charts, time-series charts) using Plotly and Seaborn. ✔ Designing a user-friendly dashboard with Dash for real-time data exploration. ✔ Implementing filtering options to dynamically analyze crime trends by borough, precinct, and crime type.\n\n  \n\n\n\n\nThe Bank Marketing Prediction collaborative Project applies machine learning techniques to enhance bank marketing strategies by predicting whether a customer will subscribe to a term deposit based on demographic and campaign-related data.\nThe goal was to develop a predictive model that helps banks:\n\nOptimize resource allocation\n\nMinimize marketing costs\n\nImprove customer conversion rates\n\nThis project incorporated end-to-end data science workflows, data preprocessing, and model evaluation to identify the most effective approach for targeted marketing.\n\n\n\n\nThis project focused on developing a scalable and automated machine learning workflow to improve marketing strategies. The main objectives and contributions include:\n\nPredicting Customer Subscription Behavior: Building predictive models to classify customer responses based on demographic and campaign-related data.\n\nOptimizing Marketing Strategies: Identifying patterns in customer responses to enhance targeting and reduce marketing costs.\n\nBuilding a Fully Reproducible Machine Learning Pipeline: Developing an end-to-end pipeline using Python, Jupyter Notebooks, and GitHub Actions.\n\nAutomating Data Processing & Model Training: Implementing a structured workflow using Click, Docker, and Makefiles to ensure automation.\n\nEnhancing Model Interpretability: Using feature importance analysis to provide insights into the key factors influencing customer behavior.\n\nEffectively Communicating Insights: Presenting findings through structured reports and data-driven presentations to stakeholders.\n\n\n\n\n\n\n\n\nCleaned, standardized, and structured raw customer data.\n\nApplied feature scaling and categorical encoding.\n\nHandled missing values and class imbalance issues to improve model performance.\n\n\n\n\n\nBuilt Logistic Regression and Decision Tree Classifier models.\n\nTuned hyperparameters to improve precision, recall, and overall accuracy.\n\nCompared models based on accuracy, precision, recall, and F1 score.\n\nIdentified trade-offs between false positives and false negatives for better marketing decisions.\n\n\n\n\n\nDockerized the project for reproducibility and easy deployment.\n\nUsed Makefiles to automate data processing, model training, and reporting.\n\n\n\n\n\nSet up a Docker container to allow for easy execution of the project.\n\nAutomated data processing and model training using Makefile workflows.\n\nGenerated structured reports detailing model performance and business recommendations.\n\n\n\n\n\n\nTo ensure stakeholders could easily interpret and apply model insights, we developed a presentation that:\n\nSimplified complex machine learning concepts.\nHighlighted the most impactful findings from model evaluation.\n\nProvided clear, data-driven recommendations to enhance marketing strategies.\n\nBy combining technical depth with actionable insights, this presentation helped decision-makers understand how AI-driven marketing could improve customer outreach and conversion rates.\n\n\n\n\nThis project strengthened my skills in:\n\nBuilding scalable ML models – End-to-end data science workflows.\nData Engineering & Pipelines – Automating data processing and model training.\n\nVersion Control & Collaboration – Managing contributions via GitHub.\n\nEffective Communication – Presenting data insights in a structured and compelling format.\n\nGithub Repository\nFinal Report\nPresentation Slides\n\n⬅ Back to Projects"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Explore My Projects!",
     "section": "",
-    "text": "Health Science Calculator\n\n\nA Python package for health metric calculations (TDEE, BMI, BMR).\n\nRead More\n\n\n\n\nBank Marketing Prediction\n\n\nMachine learning model to predict customer subscriptions.\n\nRead More\n\n\n\n\nCredit Card Default Prediction\n\n\nPredicting credit card defaults using decision trees.\n\nRead More\n\n\n\n\nData Science Starter Kit Blog\n\n\nBeginner-friendly resources on Git, version control, and best practices.\n\nRead More\n\n\n\n\nNYPD Arrest Tracker\n\n\nInteractive dashboard analyzing NYC crime data.\n\nRead More\n\n\n\nWant to see the code?\nView All Projects on GitHub"
+    "text": "Health Science Calculator\n\n\nA Python package for health metric calculations (TDEE, BMI, BMR).\n\nRead More\n\n\n\n\nBank Marketing Prediction\n\n\nMachine learning model to predict customer subscriptions.\n\nRead More\n\n\n\n\nData Science Starter Kit Blog\n\n\nBeginner-friendly resources on Git, version control, and best practices.\n\nRead More\n\n\n\n\nNYPD Arrest Tracker\n\n\nInteractive dashboard analyzing NYC crime data.\n\nRead More\n\n\n\nWant to see the code?\nView All Projects on GitHub"
   },
   {
     "objectID": "Education.html",
@@ -215,5 +215,89 @@
     "title": "Bank Marketing Prediction",
     "section": "",
     "text": "This project strengthened my skills in:\n\nBuilding scalable ML models – End-to-end data science workflows.\nData Engineering & Pipelines – Automating data processing and model training.\n\nVersion Control & Collaboration – Managing contributions via GitHub.\n\nEffective Communication – Presenting data insights in a structured and compelling format.\n\nGithub Repository\nFinal Report\nPresentation Slides\n\n⬅ Back to Projects"
+  },
+  {
+    "objectID": "projects/data_science_starter_kit.html#overview",
+    "href": "projects/data_science_starter_kit.html#overview",
+    "title": "The Data Science Starter Kit - Blog",
+    "section": "",
+    "text": "The Data Science Starter Kit Blog is a beginner-friendly resource designed to help aspiring data scientists navigate fundamental concepts and practical tools.\nThis project aims to simplify the learning process by offering step-by-step tutorials, code examples, and educational content to build a strong foundation in data science."
+  },
+  {
+    "objectID": "projects/data_science_starter_kit.html#project-goals-contributions",
+    "href": "projects/data_science_starter_kit.html#project-goals-contributions",
+    "title": "The Data Science Starter Kit - Blog",
+    "section": "",
+    "text": "Authored educational blog posts covering topics such as:\n\nGit & Version Control – Managing and tracking code efficiently.\nData Visualization – Using Python libraries for storytelling with data.\n\nDeveloped hands-on tutorials and code examples, guiding beginners through essential data science workflows.\nMaintained a GitHub repository with code snippets, datasets, and Jupyter Notebooks to complement the blog content.\nCreated a promotional video to increase engagement and drive traffic to the blog."
+  },
+  {
+    "objectID": "projects/data_science_starter_kit.html#technical-implementation",
+    "href": "projects/data_science_starter_kit.html#technical-implementation",
+    "title": "The Data Science Starter Kit - Blog",
+    "section": "",
+    "text": "Python – Writing clean and reproducible code.\n\nGit & GitHub – Implementing version control for collaboration and project tracking.\n\nTechnical Writing – Explaining complex topics in an accessible way.\n\nContent Creation & Video Editing – Producing engaging educational material."
+  },
+  {
+    "objectID": "projects/data_science_starter_kit.html#presenting-the-findings",
+    "href": "projects/data_science_starter_kit.html#presenting-the-findings",
+    "title": "The Data Science Starter Kit - Blog",
+    "section": "",
+    "text": "To ensure stakeholders could easily interpret and apply model insights, we developed a presentation that:\n\nSimplified complex machine learning concepts.\nHighlighted the most impactful findings from model evaluation.\n\nProvided clear, data-driven recommendations to enhance marketing strategies.\n\nBy combining technical depth with actionable insights, this presentation helped decision-makers understand how AI-driven marketing could improve customer outreach and conversion rates."
+  },
+  {
+    "objectID": "projects/data_science_starter_kit.html#key-takeaways-impact",
+    "href": "projects/data_science_starter_kit.html#key-takeaways-impact",
+    "title": "The Data Science Starter Kit - Blog",
+    "section": "",
+    "text": "Through this project, I strengthened my skills in: - Technical Communication – Writing clear, structured explanations for data science concepts. - Software Development & Best Practices – Using GitHub for version control and project management. - Educational Content Creation – Designing learning materials for data science beginners. - Community Engagement – Promoting knowledge-sharing through accessible online resources.\nGithub Repository\nRead the Blog\nWatch the Promotional Video\n\n⬅ Back to Projects"
+  },
+  {
+    "objectID": "projects/data_science_starter_kit.html#overview-1",
+    "href": "projects/data_science_starter_kit.html#overview-1",
+    "title": "The Data Science Starter Kit - Blog",
+    "section": "",
+    "text": "The Bank Marketing Prediction collaborative Project applies machine learning techniques to enhance bank marketing strategies by predicting whether a customer will subscribe to a term deposit based on demographic and campaign-related data.\nThe goal was to develop a predictive model that helps banks:\n\nOptimize resource allocation\n\nMinimize marketing costs\n\nImprove customer conversion rates\n\nThis project incorporated end-to-end data science workflows, data preprocessing, and model evaluation to identify the most effective approach for targeted marketing."
+  },
+  {
+    "objectID": "projects/nyc_arrest_dashboard.html",
+    "href": "projects/nyc_arrest_dashboard.html",
+    "title": "NYPD Arrest Tracker App (Work in Progress)",
+    "section": "",
+    "text": "The NYPD Arrest Tracker App is a collaborative data science project aimed at providing NYC government executives with a unified dashboard for monitoring arrest statistics across the city.\nThe goal of this project was to create an interactive and data-driven tool that allows policymakers to track trends, analyze arrest data, and make evidence-based decisions regarding law enforcement and public safety initiatives.\n\n\n\n\nThis project was designed to address the challenges of inconsistent, redundant, and fragmented arrest data across various NYC departments. Our solution provides a centralized and interactive dashboard that allows policymakers to:\n\nMonitor Trends – Track the evolution of arrest rates across different crime types, demographics, and locations.\nEnhance Decision-Making – Use data-driven insights to inform policy changes and resource allocation.\nOptimize Law Enforcement Initiatives – Measure the effectiveness of public safety campaigns.\nImprove Data Accessibility – Consolidate arrest statistics into a single, intuitive visualization tool.\n\n\n\n\n\n\n\n\nCleaned and structured arrest data for efficient visualization.\nHandled missing values and standardized variables for accuracy.\nOptimized data formats for interactive dashboard integration.\n\n\n\n\n\nBuilt interactive visualizations using Plotly & Dash.\nImplemented data filtering to allow customized user analysis.\nOptimized map rendering for smooth, real-time exploration.\n\n\n\n\n\nContainerized dashboard using Docker for seamless deployment.\nDesigned user-friendly navigation for intuitive decision-making.\n\n\n\n\n\n\nThe dashboard consists of:\n\nInteractive NYC Map – Displays precinct-level arrest data.\n\nBar Chart – Visualizes crime frequency with drill-down capabilities.\n\nTime-Series Density Plot – Tracks arrest trends across time.\n\nPie Charts – Show arrest distributions by age and gender.\n\nSidebar – Allows filtering by date, location, and crime type.\n\nThis structured design ensures fast and intuitive exploration of arrest trends.\n\n\n\nThrough this project, I gained experience in:\n\nData Engineering – Processing large-scale NYC arrest records.\nData Visualization – Developing interactive dashboards for government use.\nPolicy Analytics – Using data science to drive public safety decisions.\nPublic Sector UI/UX – Creating user-friendly tools for non-technical stakeholders.\n\nThis project highlights the real-world impact of data science in law enforcement and public policy.\nGithub Repository\n\n⬅ Back to Projects"
+  },
+  {
+    "objectID": "projects/nyc_arrest_dashboard.html#overview",
+    "href": "projects/nyc_arrest_dashboard.html#overview",
+    "title": "NYPD Arrest Tracker App (Work in Progress)",
+    "section": "",
+    "text": "The NYPD Arrest Tracker App is a collaborative data science project aimed at providing NYC government executives with a unified dashboard for monitoring arrest statistics across the city.\nThe goal of this project was to create an interactive and data-driven tool that allows policymakers to track trends, analyze arrest data, and make evidence-based decisions regarding law enforcement and public safety initiatives."
+  },
+  {
+    "objectID": "projects/nyc_arrest_dashboard.html#project-goals-contributions",
+    "href": "projects/nyc_arrest_dashboard.html#project-goals-contributions",
+    "title": "NYPD Arrest Tracker App (Work in Progress)",
+    "section": "",
+    "text": "This project was designed to address the challenges of inconsistent, redundant, and fragmented arrest data across various NYC departments. Our solution provides a centralized and interactive dashboard that allows policymakers to:\n\nMonitor Trends – Track the evolution of arrest rates across different crime types, demographics, and locations.\nEnhance Decision-Making – Use data-driven insights to inform policy changes and resource allocation.\nOptimize Law Enforcement Initiatives – Measure the effectiveness of public safety campaigns.\nImprove Data Accessibility – Consolidate arrest statistics into a single, intuitive visualization tool."
+  },
+  {
+    "objectID": "projects/nyc_arrest_dashboard.html#technical-implementation",
+    "href": "projects/nyc_arrest_dashboard.html#technical-implementation",
+    "title": "NYPD Arrest Tracker App (Work in Progress)",
+    "section": "",
+    "text": "Cleaned and structured arrest data for efficient visualization.\nHandled missing values and standardized variables for accuracy.\nOptimized data formats for interactive dashboard integration.\n\n\n\n\n\nBuilt interactive visualizations using Plotly & Dash.\nImplemented data filtering to allow customized user analysis.\nOptimized map rendering for smooth, real-time exploration.\n\n\n\n\n\nContainerized dashboard using Docker for seamless deployment.\nDesigned user-friendly navigation for intuitive decision-making."
+  },
+  {
+    "objectID": "projects/nyc_arrest_dashboard.html#key-takeaways-impact",
+    "href": "projects/nyc_arrest_dashboard.html#key-takeaways-impact",
+    "title": "NYPD Arrest Tracker App (Work in Progress)",
+    "section": "",
+    "text": "Through this project, I gained experience in:\n\nData Engineering – Processing large-scale NYC arrest records.\nData Visualization – Developing interactive dashboards for government use.\nPolicy Analytics – Using data science to drive public safety decisions.\nPublic Sector UI/UX – Creating user-friendly tools for non-technical stakeholders.\n\nThis project highlights the real-world impact of data science in law enforcement and public policy.\nGithub Repository\n\n⬅ Back to Projects"
+  },
+  {
+    "objectID": "projects/nyc_arrest_dashboard.html#app-sketch-design",
+    "href": "projects/nyc_arrest_dashboard.html#app-sketch-design",
+    "title": "NYPD Arrest Tracker App (Work in Progress)",
+    "section": "",
+    "text": "The dashboard consists of:\n\nInteractive NYC Map – Displays precinct-level arrest data.\n\nBar Chart – Visualizes crime frequency with drill-down capabilities.\n\nTime-Series Density Plot – Tracks arrest trends across time.\n\nPie Charts – Show arrest distributions by age and gender.\n\nSidebar – Allows filtering by date, location, and crime type.\n\nThis structured design ensures fast and intuitive exploration of arrest trends."
   }
 ]

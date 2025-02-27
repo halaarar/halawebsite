@@ -31,12 +31,6 @@ about:
   <a href="projects/bank_marketing_predictions.qmd" class="btn btn-outline-dark">Read More</a>
 </div>
 
-<div class="grid-item">
-  <img src="images/creditcard.png" width="100px">
-  <h3>Credit Card Default Prediction</h3>
-  <p>Predicting credit card defaults using decision trees.</p>
-  <a href="projects/credit_card_default.qmd" class="btn btn-outline-dark">Read More</a>
-</div>
 
 <div class="grid-item">
   <img src="images/blog.png" width="100px">
