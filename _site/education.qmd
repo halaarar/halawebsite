@@ -1,3 +1,21 @@
+---
+title: "Education"
+image: "images/education.png"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hala-arar-9931a615b/
+    - icon: github
+      text: Github
+      href: https://github.com/halaarar
+    - icon: envelope
+      text: Email
+      href: mailto:halaosama92@yahoo.com
+---
+
+
 # Education 
 
 ## Master in Data Science - University of British Columbia (September 2024 - June 2025)

@@ -19,7 +19,7 @@ website:
             text: NYC Arrest Dashboard
           - href: projects/data_science_starter_kit.qmd
             text: Data Science Starter Kit
-      - href: education.qmd
+      - href: Education.qmd
         text: Education
       - href: work_experience.qmd
         text: Work Experience

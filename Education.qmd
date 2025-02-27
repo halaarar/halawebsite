@@ -1,6 +1,28 @@
-# Education 
+---
+title: "Education"
+image: "images/education.png"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hala-arar-9931a615b/
+    - icon: github
+      text: Github
+      href: https://github.com/halaarar
+    - icon: envelope
+      text: Email
+      href: mailto:halaosama92@yahoo.com
+---
 
-## Master in Data Science - University of British Columbia (September 2024 - June 2025)
+
+
+
+----
+
+## Master in Data Science - University of British Columbia (September 2024 - June 2025) 
+
+<img src="images/ubc.png" alt="UBC Logo" width="200" class="mx-auto d-block">
 
 I am currently pursuing my Master's in Data Science at the University of British Columbia, driven by my passion for statistics and machine learning. I was drawn to this program because of my strong interest in solving complex real-world problems using data-driven insights—particularly in healthcare and finance.
 
@@ -14,9 +36,12 @@ I have a deep curiosity for mathematical concepts and their interdisciplinary ap
 
 Throughout the program, I’ve worked on collaborative projects, applying these skills to real-world datasets. You can find more details on my Projects page. Additionally, I will be working on a capstone project with an industry partner to tackle a real-world business challenge using data science.
 
+---
 
 
 ## Bachelor's in Biomedical Sciences - Trent University (September 2020 - April 2024)
+
+<img src="images/images.png" alt="UBC Logo" width="130" class="mx-auto d-block">
 
 I completed my undergraduate degree in Biomedical Sciences with a Minor in Mathematics at Trent University. My academic journey was shaped by my dual passion for biology and mathematics, which led me to a degree that merges both disciplines.
 
@@ -47,6 +72,4 @@ During my degree, I explored various disciplines, gaining a solid understanding 
 
 #### Finance & Accounting
 - Financial Accounting, Global Finance
-- Personal Interest: I am passionate about investing and financial markets, regularly exploring stocks, ETFs, mutual funds, and GICs.
-My background in biomedical sciences, mathematics, and finance has given me a unique interdisciplinary perspective, allowing me to bridge data science with healthcare and business analytics.
 
