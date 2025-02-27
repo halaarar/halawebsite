@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>bank_marketing_predictions – Hala Arar | Data Science Portfolio</title>
+<title>Bank Marketing Prediction – Hala Arar | Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dd08061cb7210c315e315379d94beb87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -102,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Health Science Calculator</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projects/bank_marketing_prediction.qmd">
+    <a class="dropdown-item" href="../projects/bank_marketing_predictions.html">
  <span class="dropdown-text">Bank Marketing Prediction</span></a>
   </li>  
         <li>
@@ -161,65 +160,147 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
-
-
-
-
-<section id="bank-marketing-predictions" class="level2">
-<h2 class="anchored" data-anchor-id="bank-marketing-predictions">Bank Marketing predictions</h2>
-<p>Overview The Bank Marketing Prediction Project applies machine learning techniques to enhance bank marketing strategies by predicting whether a customer will subscribe to a term deposit based on demographic and campaign-related data.</p>
-<p>The goal was to develop a predictive model that helps banks optimize resource allocation, minimize marketing costs, and improve customer conversion rates. This project incorporated end-to-end data science workflows, data preprocessing, and model evaluation to identify the most effective approach for targeted marketing.</p>
-<p>💡 Key Contributions &amp; Impact ✔ Developed predictive models to classify customer responses to bank marketing campaigns. ✔ Built a fully reproducible machine learning pipeline using Python and Jupyter Notebooks. ✔ Implemented Docker for containerized deployment, ensuring portability across environments. ✔ Used GitHub Actions for CI/CD, automating testing and workflow execution. ✔ Applied statistical analysis and feature engineering to optimize model performance. ✔ Conducted error analysis and class imbalance handling to enhance predictions. ✔ Created a structured reporting system, generating a detailed analysis of the models’ effectiveness.</p>
-<p>Project Objectives 🔹 Predict Customer Subscription Behavior: Determine whether a customer will subscribe to a term deposit based on demographic and campaign-related data. 🔹 Optimize Marketing Strategies: Identify patterns in customer responses to improve targeting and reduce costs. 🔹 Automate Data Processing &amp; Model Training: Develop a scalable pipeline using Click, Docker, and Makefiles. 🔹 Enhance Model Interpretability: Implement feature importance analysis to guide data-driven decision-making.</p>
-<p>Technical Implementation 1️⃣ Data Preprocessing &amp; Feature Engineering Processing raw customer data involved several key steps: ✔ Handled missing values and inconsistencies using pandas and NumPy. ✔ Applied feature scaling and normalization for numerical attributes. ✔ Used one-hot encoding to convert categorical variables into a machine-readable format. ✔ Class balancing techniques (oversampling, undersampling) to address the imbalance between subscribers and non-subscribers.</p>
-<p>Example Code for Data Cleaning &amp; Feature Engineering:</p>
-<p>python Copy Edit from sklearn.preprocessing import StandardScaler, OneHotEncoder import pandas as pd</p>
+<div class="quarto-about-jolla column-page">
+  <img src="../images/bank2.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Bank Marketing Prediction</h1>
+</div>
+<div class="quarto-title-meta column-page">
+  </div>
+</header><main class="content column-page" id="quarto-document-content">
+<div class="center-content">
+<a href="https://github.com/UBC-MDS/BankMarketingPreditions-"> <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository"> </a>
+<div>
+<hr>
+<section id="overview" class="level2">
+<h2 data-anchor-id="overview">Overview</h2>
+<p>The Bank Marketing Prediction collaborative Project applies machine learning techniques to enhance bank marketing strategies by predicting whether a customer will subscribe to a term deposit based on demographic and campaign-related data.</p>
+<p>The goal was to develop a predictive model that helps banks:</p>
+<ul>
+<li><strong>Optimize resource allocation</strong><br>
+</li>
+<li><strong>Minimize marketing costs</strong><br>
+</li>
+<li><strong>Improve customer conversion rates</strong></li>
+</ul>
+<p>This project incorporated end-to-end data science workflows, data preprocessing, and model evaluation to identify the most effective approach for targeted marketing.</p>
+<hr>
 </section>
-<section id="load-dataset" class="level1">
-<h1>Load dataset</h1>
-<p>df = pd.read_csv(“data/bank-additional-full.csv”)</p>
+<section id="project-goals-contributions" class="level2">
+<h2 data-anchor-id="project-goals-contributions">Project Goals &amp; Contributions</h2>
+<p>This project focused on <strong>developing a scalable and automated machine learning workflow</strong> to improve marketing strategies. The main objectives and contributions include:</p>
+<ul>
+<li><strong>Predicting Customer Subscription Behavior</strong>: Building predictive models to classify customer responses based on demographic and campaign-related data.<br>
+</li>
+<li><strong>Optimizing Marketing Strategies</strong>: Identifying patterns in customer responses to enhance targeting and reduce marketing costs.<br>
+</li>
+<li><strong>Building a Fully Reproducible Machine Learning Pipeline</strong>: Developing an end-to-end pipeline using Python, Jupyter Notebooks, and GitHub Actions.<br>
+</li>
+<li><strong>Automating Data Processing &amp; Model Training</strong>: Implementing a structured workflow using <strong>Click, Docker, and Makefiles</strong> to ensure automation.<br>
+</li>
+<li><strong>Enhancing Model Interpretability</strong>: Using feature importance analysis to provide insights into the key factors influencing customer behavior.<br>
+</li>
+<li><strong>Effectively Communicating Insights</strong>: Presenting findings through structured reports and <strong>data-driven presentations</strong> to stakeholders.</li>
+</ul>
+<hr>
 </section>
-<section id="feature-scaling" class="level1">
-<h1>Feature scaling</h1>
-<p>scaler = StandardScaler() df[[“age”, “campaign”, “previous”]] = scaler.fit_transform(df[[“age”, “campaign”, “previous”]])</p>
+<section id="technical-implementation" class="level2">
+<h2 data-anchor-id="technical-implementation">Technical Implementation</h2>
+<section id="data-preprocessing-feature-engineering" class="level3">
+<h3 data-anchor-id="data-preprocessing-feature-engineering">Data Preprocessing &amp; Feature Engineering</h3>
+<ul>
+<li>Cleaned, standardized, and structured raw customer data.<br>
+</li>
+<li>Applied feature scaling and categorical encoding.<br>
+</li>
+<li>Handled missing values and class imbalance issues to improve model performance.</li>
+</ul>
 </section>
-<section id="one-hot-encoding-categorical-features" class="level1">
-<h1>One-hot encoding categorical features</h1>
-<p>encoder = OneHotEncoder() encoded_features = encoder.fit_transform(df[[“job”, “marital”, “education”]]).toarray() 2️⃣ Machine Learning Models &amp; Performance Evaluation Implemented two machine learning models:</p>
-<p>📌 Logistic Regression</p>
-<p>Focused on interpretability and explainability. Prioritized minimizing false positives, achieving high precision (0.70). Used L1 regularization to prevent overfitting. 📌 Decision Tree Classifier</p>
-<p>More flexible in handling non-linear relationships. Achieved higher recall (0.23) but increased false positives. Required pruning and hyperparameter tuning for optimal performance. ✔ Performance Metrics Used:</p>
-<p>Accuracy: Measures overall correctness. Precision: Reduces false positives (important for targeted marketing). Recall: Identifies more actual subscribers. F1 Score: Balances precision and recall. Model Performance Results:</p>
-<p>Model Accuracy Precision Recall F1 Score Logistic Regression 88.5% 0.70 0.20 0.31 Decision Tree 89.7% 0.64 0.23 0.34 💡 Findings:</p>
-<p>Logistic Regression was best for reducing false positives. Decision Tree performed better in identifying actual subscribers. Further model tuning needed to balance precision and recall. 3️⃣ CI/CD &amp; Automation with Docker &amp; GitHub Actions To ensure reproducibility and scalability, I implemented CI/CD pipelines using Docker &amp; GitHub Actions.</p>
-<p>✔ Dockerized the project for easy deployment. ✔ Automated testing using Pytest to validate model outputs. ✔ GitHub Actions triggered CI/CD workflows, ensuring seamless execution.</p>
-<p>Example of Dockerized Workflow:</p>
-<p>yaml Copy Edit name: CI/CD Pipeline</p>
-<p>on: push: branches: - main</p>
-<p>jobs: build: runs-on: ubuntu-latest steps: - name: Checkout code uses: actions/checkout@v2 - name: Set up Python uses: actions/setup-python@v2 with: python-version: “3.10” - name: Install dependencies run: pip install -r requirements.txt - name: Run tests run: pytest –cov=src 🚀 Impact: CI/CD automation reduced manual intervention, ensuring code integrity and rapid deployment.</p>
-<p>4️⃣ Running the Analysis 💡 Option 1: Run Using Docker 1️⃣ Install Docker. 2️⃣ Clone the repository.</p>
-<p>bash Copy Edit git clone https://github.com/mindy001/BankMarketingPreditions-.git cd BankMarketingPreditions- 3️⃣ Start the container.</p>
-<p>bash Copy Edit docker-compose up 4️⃣ Access JupyterLab for interactive analysis.</p>
-<p>💡 Option 2: Run Using Makefile 1️⃣ Clone repository and activate environment.</p>
-<p>bash Copy Edit git clone https://github.com/mindy001/BankMarketingPreditions-.git cd BankMarketingPreditions- conda env create -f env/environment.yml<br>
-conda activate bankenv 2️⃣ Generate analysis report.</p>
-<p>bash Copy Edit make all 3️⃣ Open the generated PDF report.</p>
-<p>Key Takeaways &amp; Impact 🚀 Through this project, I gained experience in: ✔ Building scalable ML models – Data preprocessing, feature engineering, model selection. ✔ Data Engineering &amp; Pipelines – Automated workflows using Makefile and Docker. ✔ Machine Learning for Marketing – Class imbalance handling, precision-recall tradeoffs. ✔ CI/CD &amp; Automation – GitHub Actions for testing, deployment, and reproducibility. ✔ Version Control &amp; Collaboration – GitHub repository management, pull requests, team contributions.</p>
-<p>🔹 Future Enhancements: ✅ Hyperparameter tuning using GridSearchCV for improved accuracy. ✅ Feature selection analysis to reduce redundant variables. ✅ Deploying an API to allow real-time model inference for banks.</p>
-<p>Final Thoughts This project strengthened my ability to develop end-to-end machine learning solutions for real-world business challenges. By combining ML modeling, automation, and CI/CD, I created a fully scalable, deployable, and interpretable system.</p>
-<p>🔗 Check out the full report: Final Report 🔗 GitHub Repository: Bank Marketing Prediction</p>
-<p>Would love to connect with others interested in marketing analytics, data-driven decision-making, and AI-powered business solutions! 🚀</p>
-<section id="credit-card-default-prediction-project" class="level2">
-<h2 class="anchored" data-anchor-id="credit-card-default-prediction-project">Credit Card Default Prediction Project</h2>
-<p>links that takes you to the project section of this link that takes you to the github page</p>
-<p>• Analyzed and preprocessed the Default of Credit Card Clients dataset to predict credit card payment defaults. • Implemented decision tree models and hyperparameter tuning to optimize model performance. • GitHub Repository: https://github.ubc.ca/mds-2024-25/DSCI_573_Lab4_hala_fazeeia/tree/main</p>
+<section id="machine-learning-models-performance-evaluation" class="level3">
+<h3 data-anchor-id="machine-learning-models-performance-evaluation">Machine Learning Models &amp; Performance Evaluation</h3>
+<ul>
+<li>Built <strong>Logistic Regression</strong> and <strong>Decision Tree Classifier</strong> models.<br>
+</li>
+<li>Tuned hyperparameters to improve precision, recall, and overall accuracy.<br>
+</li>
+<li>Compared models based on <strong>accuracy, precision, recall, and F1 score</strong>.<br>
+</li>
+<li>Identified trade-offs between false positives and false negatives for better marketing decisions.</li>
+</ul>
+</section>
+<section id="automating-workflows-with-docker-makefile" class="level3">
+<h3 data-anchor-id="automating-workflows-with-docker-makefile">Automating Workflows with Docker &amp; Makefile</h3>
+<ul>
+<li>Dockerized the project for reproducibility and easy deployment.<br>
+</li>
+<li>Used Makefiles to automate data processing, model training, and reporting.</li>
+</ul>
+</section>
+<section id="running-the-analysis" class="level3">
+<h3 data-anchor-id="running-the-analysis">Running the Analysis</h3>
+<ul>
+<li>Set up a <strong>Docker container</strong> to allow for easy execution of the project.<br>
+</li>
+<li>Automated data processing and model training using <strong>Makefile</strong> workflows.<br>
+</li>
+<li>Generated structured reports detailing model performance and business recommendations.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="presenting-the-findings" class="level2">
+<h2 data-anchor-id="presenting-the-findings">Presenting the Findings</h2>
+<p>To ensure <strong>stakeholders could easily interpret and apply model insights</strong>, we developed a <strong>presentation</strong> that:</p>
+<ul>
+<li>Simplified complex machine learning concepts.</li>
+<li>Highlighted the most impactful findings from model evaluation.<br>
+</li>
+<li>Provided <strong>clear, data-driven recommendations</strong> to enhance marketing strategies.</li>
+</ul>
+<p>By combining <strong>technical depth with actionable insights</strong>, this presentation helped decision-makers understand <strong>how AI-driven marketing could improve customer outreach and conversion rates</strong>.</p>
+<hr>
+</section>
+<section id="key-takeaways-impact" class="level2">
+<h2 data-anchor-id="key-takeaways-impact">Key Takeaways &amp; Impact</h2>
+<p>This project strengthened my skills in:</p>
+<ul>
+<li><strong>Building scalable ML models</strong> – End-to-end data science workflows.</li>
+<li><strong>Data Engineering &amp; Pipelines</strong> – Automating data processing and model training.<br>
+</li>
+<li><strong>Version Control &amp; Collaboration</strong> – Managing contributions via GitHub.<br>
+</li>
+<li><strong>Effective Communication</strong> – Presenting data insights in a structured and compelling format.</li>
+</ul>
+<p><a href="https://github.com/UBC-MDS/BankMarketingPreditions-/blob/main/reports/bank_marketing_analysis.ipynb" class="btn btn-outline-dark">Github Repository</a></p>
+<p><a href="../folders/bank_marketing_analysis copy.pdf" class="btn btn-outline-dark">Final Report</a></p>
+<p><a href="../folders/Bank marketing prediction.pdf" class="btn btn-outline-dark">Presentation Slides</a></p>
+<hr>
+<p><a href="../projects.html">⬅ Back to Projects</a></p>
 
 
 </section>
-</section>
-
-</main> <!-- /main -->
+</div>
+</div>
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://www.linkedin.com/in/hala-arar-9931a615b/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/halaarar" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="mailto:halaosama92@yahoo.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -240,13 +321,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

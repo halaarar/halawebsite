@@ -54,5 +54,10 @@ about:
 :::
 
 
+<div class="center-content">
+  
 # Want to see the code?
+
 [View All Projects on GitHub](https://github.com/halaarar){.btn .btn-outline-dark}
+
+</div>

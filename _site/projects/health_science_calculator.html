@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dd08061cb7210c315e315379d94beb87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -102,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Health Science Calculator</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projects/bank_marketing_prediction.qmd">
+    <a class="dropdown-item" href="../projects/bank_marketing_predictions.html">
  <span class="dropdown-text">Bank Marketing Prediction</span></a>
   </li>  
         <li>
@@ -161,108 +160,135 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-jolla column-page">
+  <img src="/images/med.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Health Science Calculator</h1>
 </div>
-
-
-
 <div class="quarto-title-meta column-page">
-
-    
-  
-    
   </div>
-  
-
-
-</header>
-
-
-<section id="health-science-calculator" class="level1">
-<h1>Health Science Calculator 🏥</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/med.png" class="img-fluid figure-img" width="150"></p>
-<figcaption>Health Science Calculator</figcaption>
-</figure>
-</div>
+</header><main class="content column-page" id="quarto-document-content">
+<div class="center-content">
+<a href="https://github.com/UBC-MDS/HealthScienceCalculator"> <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository"> </a>
+<div>
+<hr>
 <section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">📌 Overview</h2>
-<p>HealthScienceCalculator is a Python package designed for health metric calculations like: - ✅ <strong>Basal Metabolic Rate (BMR)</strong> - ✅ <strong>Total Daily Energy Expenditure (TDEE)</strong> - ✅ <strong>Body Mass Index (BMI)</strong></p>
-</section>
-<section id="technologies-used" class="level2">
-<h2 class="anchored" data-anchor-id="technologies-used">🛠️ Technologies Used</h2>
+<h2 data-anchor-id="overview"><strong>Overview</strong></h2>
+<p>Health Science Calculator is a Python package designed to provide accurate and efficient health metric calculations, including:</p>
 <ul>
-<li><strong>Python</strong> (NumPy, Pandas)</li>
-<li><strong>GitHub Workflows</strong> (CI/CD)</li>
-<li><strong>Pytest</strong> (Unit testing &amp; test coverage)</li>
-<li><strong>Docker</strong> (Containerization)</li>
-<li><strong>Jupyter Notebooks</strong> (Exploratory Data Analysis)</li>
-<li><strong>ReadTheDocs</strong> (Project Documentation)</li>
+<li><strong>Total Daily Energy Expenditure (TDEE)</strong><br>
+</li>
+<li><strong>Basal Metabolic Rate (BMR)</strong><br>
+</li>
+<li><strong>Body Mass Index (BMI)</strong><br>
+</li>
+<li><strong>Unit conversions for health data</strong></li>
+</ul>
+<p>This project was developed as part of a collaborative effort using best practices in software engineering, automation, and version control to ensure code quality, maintainability, and scalability. This package was designed to be useful for health professionals, researchers, and fitness enthusiasts.</p>
+<hr>
+</section>
+<section id="project-goals-contributions" class="level2">
+<h2 data-anchor-id="project-goals-contributions">Project Goals &amp; Contributions</h2>
+<ul>
+<li><strong>Developed a modular Python package</strong> for health-related calculations.</li>
+<li><strong>Implemented core functions</strong> for BMI, BMR, TDEE, and unit conversion.</li>
+<li>I<strong>ntegrated Pytest for automated testing</strong>, achieving 100% test coverage.</li>
+<li><strong>Implemented GitHub Actions for CI/CD</strong>, enabling automated testing and deployment.</li>
+<li><strong>Published the package to PyPI</strong> (<code>pip install healthsciencecalculator</code>).</li>
+<li><strong>Designed API documentation</strong> using Sphinx and Read the Docs.</li>
+<li><strong>Collaborated using Git workflows</strong> (branching, merging, pull requests).</li>
+</ul>
+<hr>
+</section>
+<section id="technical-implementation" class="level2">
+<h2 data-anchor-id="technical-implementation">Technical Implementation</h2>
+<section id="core-functionality" class="level3">
+<h3 data-anchor-id="core-functionality">Core Functionality</h3>
+<p>This package includes the following key functions:</p>
+<ul>
+<li><p><code>get_tdee()</code>: Calculates Total Daily Energy Expenditure (TDEE) based on BMR and activity level.</p></li>
+<li><p><code>get_bmi()</code>: Computes Body Mass Index (BMI) and classifies users (underweight, normal, overweight, obese).</p></li>
+<li><p><code>get_bmr()</code>: Uses the Harris-Benedict equation to compute Basal Metabolic Rate (BMR).</p></li>
+<li><p><code>unit_convert()</code>: Converts between metric and imperial units for weight, height, temperature, and volume.</p></li>
+</ul>
+<p>Each function was carefully tested to ensure accuracy and reliability.</p>
+</section>
+<section id="continuous-integration-deployment-cicd" class="level3">
+<h3 data-anchor-id="continuous-integration-deployment-cicd">Continuous Integration &amp; Deployment (CI/CD)</h3>
+<p>This project uses GitHub Actions to automate the development workflow:</p>
+<ul>
+<li>Automated testing using Pytest on every commit and pull request.</li>
+<li>Linting and code style checks with Pylint.<br>
+</li>
+<li>Test coverage tracking with pytest-cov &amp; Codecov.<br>
+</li>
+<li>Automatic deployment to PyPI, ensuring up-to-date releases.</li>
+</ul>
+<section id="cicd-workflow" class="level4">
+<h4 data-anchor-id="cicd-workflow">CI/CD Workflow:</h4>
+<ol type="1">
+<li>Code changes are pushed or a pull request is opened.<br>
+</li>
+<li>GitHub Actions runs Pytest to validate functionality.<br>
+</li>
+<li>If all tests pass, the package is automatically deployed to PyPI.</li>
+</ol>
+<p>This setup ensures code stability, early bug detection, and seamless integration.</p>
+</section>
+</section>
+<section id="automated-testing-with-pytest" class="level3">
+<h3 data-anchor-id="automated-testing-with-pytest">Automated Testing with Pytest</h3>
+<ul>
+<li>Comprehensive unit tests for all health calculations.<br>
+</li>
+<li>Edge-case handling*(invalid inputs, zero values, negative values).<br>
+</li>
+<li>Parameterized tests to validate accuracy across different inputs.<br>
+</li>
+<li>Test coverage tracking with pytest-cov, achieving 100% test coverage.</li>
 </ul>
 </section>
-<section id="key-features" class="level2">
-<h2 class="anchored" data-anchor-id="key-features">🧩 Key Features</h2>
-<p>✔ Converts units (kg ↔︎ lbs, cm ↔︎ inches, etc.)<br>
-✔ Supports multiple health formulas<br>
-✔ Automates workflows for testing &amp; publishing</p>
 </section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">🔗 Links</h2>
-<p>📂 <strong>GitHub Repo:</strong> <a href="https://github.com/UBC-MDS/HealthScienceCalculator" class="btn btn-outline-dark">View Project on GitHub</a></p>
+<section id="key-takeaways-impact" class="level2">
+<h2 data-anchor-id="key-takeaways-impact">Key Takeaways &amp; Impact</h2>
+<p>This project strengthened my skills in:</p>
+<ul>
+<li><strong>Software Development</strong> → Object-oriented programming, API design.<br>
+</li>
+<li><strong>Data Processing &amp; Analytics</strong> → Structured data handling, validation.</li>
+<li><strong>Automation &amp; CI/CD</strong> → GitHub Actions, Pytest, automated deployments.</li>
+<li><strong>Collaborative Development</strong> → Git version control, team coordination.</li>
+<li><strong>Technical Communication</strong> → API documentation, user guides.</li>
+</ul>
+<p>By developing this package, I gained experience in building scalable and well-tested software solutions, with direct applications in data science, AI, and healthcare analytics.</p>
+<p><a href="https://github.com/UBC-MDS/HealthScienceCalculator" class="btn btn-outline-dark">Github Repository</a></p>
 <hr>
-<p>⬅️ <a href="../projects.html">Back to Projects</a></p>
-</section>
-</section>
-<section id="health-science-calculator-1" class="level1">
-<h1>Health Science Calculator</h1>
-<p><a href="https://github.com/UBC-MDS/HealthScienceCalculator"> <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository"> </a></p>
-<p>Health Science Calculator is a Python package designed to provide accurate and efficient health metric calculations. It supports Total Daily Energy Expenditure (TDEE), Basal Metabolic Rate (BMR), and Body Mass Index (BMI) computations, making it useful for health professionals, researchers, and fitness enthusiasts.</p>
-<p>This project was developed as part of a collaborative effort using best practices in software engineering, automation, and version control to ensure code quality, maintainability, and scalability.</p>
-<section id="project-goals-contributions" class="level3">
-<h3 class="anchored" data-anchor-id="project-goals-contributions">Project Goals &amp; Contributions</h3>
-<p>✔ Developed a modular Python package for health-related calculations using object-oriented programming (OOP) principles.</p>
-<p>✔ Implemented core functions to compute BMI, BMR, TDEE, and perform unit conversions to standardize health data.</p>
-<p>✔ Integrated Pytest for automated testing, ensuring the accuracy of implemented functions and maintaining 100% test coverage.</p>
-<p>✔ Leveraged GitHub Actions for CI/CD, automating testing, deployment, and ensuring seamless version control.</p>
-<p>✔ Published the package to PyPI, making it accessible for installation and use via pip install healthsciencecalculator.</p>
-<p>✔ Collaborated with a team, applying version control workflows (branching, merging, pull requests) to streamline development.</p>
-<p>✔ Designed an API reference and technical documentation using Sphinx and Read the Docs, ensuring clarity for users.</p>
-</section>
-<section id="technical-implementation" class="level3">
-<h3 class="anchored" data-anchor-id="technical-implementation">Technical Implementation</h3>
-<p>1️⃣ Core Functionality The package provides key health-related calculations:</p>
-<p>📌 get_tdee() – Calculates Total Daily Energy Expenditure (TDEE) based on BMR and activity level.</p>
-<p>📌 get_bmi() – Computes Body Mass Index (BMI) and classifies users into categories (underweight, normal, overweight, obese).</p>
-<p>📌 get_bmr() – Uses the Harris-Benedict equation to compute Basal Metabolic Rate (BMR) based on weight, height, age, and sex.</p>
-<p>📌 unit_convert() – Converts between metric and imperial units for weight, height, temperature, and volume.</p>
-<p>💡 Each function is rigorously tested and optimized to provide high-accuracy calculations.</p>
-<p>2️⃣ Continuous Integration &amp; Deployment (CI/CD) To ensure code stability and reliability, I implemented GitHub Actions for CI/CD, enabling:</p>
-<p>✔ Automated testing via Pytest after every code commit or pull request. ✔ Linting and style checks using Pylint to maintain code consistency. ✔ Test coverage reporting using pytest-cov and Codecov for tracking improvements. ✔ Automated package deployment to PyPI using GitHub Actions, ensuring seamless updates.</p>
-<p>🔹 CI/CD Workflow Overview:</p>
-<p>Push or Pull Request: Triggers automated tests on GitHub Actions. Run Pytest: Tests all functions for expected outputs, error handling, and edge cases. Deploy to PyPI: If all tests pass, the package is automatically updated on PyPI. 💡 Impact: CI/CD ensures code quality, early bug detection, and smooth integration into production.</p>
-<p>3️⃣ Automated Testing with Pytest Testing is crucial in health applications, so I implemented comprehensive unit tests using Pytest:</p>
-<p>✔ Validated all health metric calculations against known industry standards. ✔ Implemented edge-case handling (e.g., division by zero, incorrect input types). ✔ Ran parameterized tests to ensure correctness across various inputs. ✔ Tracked test coverage using pytest-cov, achieving 100% test coverage.</p>
-</section>
-<section id="key-takeaways-impact" class="level3">
-<h3 class="anchored" data-anchor-id="key-takeaways-impact">Key Takeaways &amp; Impact</h3>
-<p>🚀 Developing a robust Python package strengthened my skills in:</p>
-<p>✔ Software Development – Object-oriented programming, modular design, API development.</p>
-<p>✔ Machine Learning &amp; Analytics – Data validation, unit conversions, structured data processing.</p>
-<p>✔ Automation &amp; CI/CD – GitHub Actions, Pytest, automated package deployment.</p>
-<p>✔ Team Collaboration – Git workflows, issue tracking, and effective code documentation.</p>
-<p>✔ Technical Communication – Writing clear documentation and API references for user accessibility.</p>
-<p>This project enhanced my ability to develop scalable, well-tested software solutions, a skill directly applicable to data engineering, AI, and healthcare analytics roles.</p>
+<p><a href="../projects.html">⬅ Back to Projects</a></p>
 
 
 </section>
-</section>
-
-</main> <!-- /main -->
+</div>
+</div>
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://www.linkedin.com/in/hala-arar-9931a615b/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/halaarar" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="mailto:halaosama92@yahoo.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -283,13 +309,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

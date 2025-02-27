@@ -1,28 +1,32 @@
 /* =========== GENERAL STYLES =========== */
 
+/* Ensure all body text is left-aligned */
 body {
     font-family: 'Poppins', sans-serif;
-    color: #2C3E50;  /* Dark text for contrast */
-    background-color: #FAFAFA;  /* Light background */
+    color: #2C3E50;
+    background-color: #FAFAFA;
     line-height: 1.7;
+    text-align: left; /* Left-align all content */
 }
 
 /* Headings */
-h1, h2, h3 {
+h1 {
     font-family: 'Playfair Display', serif;
-    color: #2C3E50;  /* Darker headings for emphasis */
+    color: #2C3E50;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;  /* ONLY H1 is centered */
 }
 
-h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 700;
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #2C3E50;
+    text-align: left;  /* Ensure H2 and H3 are left-aligned */
 }
 
 h2 {
     font-size: 2rem;
     margin-top: 2rem;
-    text-align: center;
 }
 
 h3 {
@@ -33,26 +37,73 @@ h3 {
 /* Paragraphs */
 p {
     font-size: 1.1rem;
-    color: #444;  /* Darker for better readability */
+    color: #444;
     margin-bottom: 1.2rem;
+    text-align: left !important;  /* Ensures paragraphs are left-aligned */
+}
+
+/* Ensure lists are always left-aligned */
+ul, ol {
+    text-align: left !important;
+    margin-left: 20px; /* Adds indentation */
+}
+
+/* Ensure div containers with auto-centering stay left-aligned */
+.container, .content {
+    text-align: left !important;
+    margin-left: 0;
+}
+
+/* =========== CENTERED CONTENT STYLES =========== */
+/* Center specific elements like buttons, badges, and images */
+.center-content {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ensure images and links inside .center-content are centered */
+.center-content img, 
+.center-content a {
+    display: block;
+    margin: 10px auto;
 }
 
 /* =========== NAVBAR =========== */
 .navbar {
-    background-color: #1E88E5 !important;  /* Light blue navbar */
+    background-color: #1E88E5 !important;
     padding: 15px;
     border-bottom: 3px solid #1565C0;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand, .navbar-nav .nav-link {
-    color: #FFFFFF !important;  /* White text */
+    color: #FFFFFF !important;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #FDD835 !important;  /* Yellow hover for contrast */
+    color: #FDD835 !important;
+}
+
+/* Indented dropdown items */
+.navbar .dropdown-menu {
+    background-color: #1E88E5;
+    border: none;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #FFFFFF !important;
+    font-size: 1rem;
+    text-indent: 15px; /* Indent text inside dropdown */
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #1565C0;
+    color: #FDD835 !important;
 }
 
 /* =========== EXPLORE MY PAGE SECTION =========== */
@@ -73,88 +124,5 @@ p {
     text-align: center;
 }
 
-.grid-item:hover {
-    transform: translateY(-7px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-}
-
-.grid-item img {
-    width: 80px; /* Bigger icons */
-    height: auto;
-    margin-bottom: 1rem;
-}
-
-.grid-item h3 {
-    font-size: 1.4rem;
-    color: #2C3E50;  /* Dark headings for contrast */
-    margin-bottom: 0.5rem;
-}
-
-/* =========== BUTTON STYLES =========== */
-.btn-primary {
-    background-color: #1E88E5;
-    color: #ffffff;
-    padding: 12px 20px;
-    font-size: 1rem;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #1565C0;
-}
-
-/* =========== FOOTER =========== */
-footer {
-    background-color: #1E88E5;
-    color: #ffffff;
-    padding: 1.2rem 0;
-    text-align: center;
-    font-size: 1rem;
-}
-
-footer a {
-    color: #FDD835;
-}
-
-footer a:hover {
-    color: #FFEB3B;
-}
-
-
-/* =========== DROPDOWN MENU STYLES =========== */
-.navbar .dropdown-menu {
-    background-color: #1E88E5; /* Blue background */
-    border: none; /* Remove default border */
-}
-
-.navbar .dropdown-menu .dropdown-item {
-    color: #FFFFFF !important; /* White text */
-    font-size: 1rem;
-}
-
-.navbar .dropdown-menu .dropdown-item:hover {
-    background-color: #1565C0; /* Darker blue on hover */
-    color: #FDD835 !important; /* Yellow text on hover */
-}
-
-
-
-/* Indent dropdown items */
-.navbar .dropdown-menu {
-    background-color: #1E88E5; /* Ensure dropdown background matches navbar */
-    border: none; /* Remove any unwanted borders */
-}
-
-.navbar .dropdown-menu .dropdown-item {
-    color: #FFFFFF !important; /* White text */
-    font-size: 1rem;
-    text-indent: 15px; /* Indent text inside dropdown */
-}
-
-/* Hover effect */
-.navbar .dropdown-menu .dropdown-item:hover {
-    background-color: #1565C0; /* Darker blue on hover */
-    color: #FDD835 !important; /* Yellow text on hover */
-}
+.grid-item:hove
 

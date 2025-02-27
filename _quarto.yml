@@ -13,7 +13,7 @@ website:
             text: All Projects
           - href: projects/health_science_calculator.qmd
             text: Health Science Calculator
-          - href: projects/bank_marketing_prediction.qmd
+          - href: projects/bank_marketing_predictions.qmd
             text: Bank Marketing Prediction
           - href: projects/credit_card_default.qmd
             text: Credit Card Default Prediction

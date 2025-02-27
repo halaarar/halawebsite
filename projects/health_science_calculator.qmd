@@ -1,116 +1,116 @@
 ---
-title: "Health Science Calculator"
+title: "Health Science Calculator "
+image: "/images/med.png"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hala-arar-9931a615b/
+    - icon: github
+      text: Github
+      href: https://github.com/halaarar
+    - icon: envelope
+      text: Email
+      href: mailto:halaosama92@yahoo.com
 ---
 
-# Health Science Calculator 🏥
-
-![Health Science Calculator](../images/med.png){width=150px}
-
-## 📌 Overview
-HealthScienceCalculator is a Python package designed for health metric calculations like:
-- ✅ **Basal Metabolic Rate (BMR)**
-- ✅ **Total Daily Energy Expenditure (TDEE)**
-- ✅ **Body Mass Index (BMI)**
-
-## 🛠️ Technologies Used
-- **Python** (NumPy, Pandas)
-- **GitHub Workflows** (CI/CD)
-- **Pytest** (Unit testing & test coverage)
-- **Docker** (Containerization)
-- **Jupyter Notebooks** (Exploratory Data Analysis)
-- **ReadTheDocs** (Project Documentation)
-
-## 🧩 Key Features
-✔ Converts units (kg ↔ lbs, cm ↔ inches, etc.)  
-✔ Supports multiple health formulas  
-✔ Automates workflows for testing & publishing  
-
-## 🔗 Links
-📂 **GitHub Repo:** [View Project on GitHub](https://github.com/UBC-MDS/HealthScienceCalculator){.btn .btn-outline-dark}
-
----
-⬅️ [Back to Projects](../projects.qmd)
-
-
-
-# Health Science Calculator
-
+<div class="center-content">
 <a href="https://github.com/UBC-MDS/HealthScienceCalculator">
     <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository">
 </a>
+<div>
+
+---
+
+## **Overview**
 
 
-Health Science Calculator is a Python package designed to provide accurate and efficient health metric calculations. It supports Total Daily Energy Expenditure (TDEE), Basal Metabolic Rate (BMR), and Body Mass Index (BMI) computations, making it useful for health professionals, researchers, and fitness enthusiasts.
+Health Science Calculator is a Python package designed to provide accurate and efficient health metric calculations, including:  
 
-This project was developed as part of a collaborative effort using best practices in software engineering, automation, and version control to ensure code quality, maintainability, and scalability.
+- **Total Daily Energy Expenditure (TDEE)**  
+- **Basal Metabolic Rate (BMR)**  
+- **Body Mass Index (BMI)**  
+- **Unit conversions for health data**  
 
-### Project Goals & Contributions
+This project was developed as part of a collaborative effort using best practices in software engineering, automation, and version control to ensure code quality, maintainability, and scalability. This package was designed to be useful for health professionals, researchers, and fitness enthusiasts.
 
-✔ Developed a modular Python package for health-related calculations using object-oriented programming (OOP) principles.
+---
 
-✔ Implemented core functions to compute BMI, BMR, TDEE, and perform unit conversions to standardize health data.
+## Project Goals & Contributions
 
-✔ Integrated Pytest for automated testing, ensuring the accuracy of implemented functions and maintaining 100% test coverage.
+- **Developed a modular Python package** for health-related calculations.
+- **Implemented core functions** for BMI, BMR, TDEE, and unit conversion.
+- I**ntegrated Pytest for automated testing**, achieving 100% test coverage.
+- **Implemented GitHub Actions for CI/CD**, enabling automated testing and deployment.
+- **Published the package to PyPI** (`pip install healthsciencecalculator`).
+- **Designed API documentation** using Sphinx and Read the Docs.
+- **Collaborated using Git workflows** (branching, merging, pull requests).
 
-✔ Leveraged GitHub Actions for CI/CD, automating testing, deployment, and ensuring seamless version control.
+---
 
-✔ Published the package to PyPI, making it accessible for installation and use via pip install healthsciencecalculator.
+## Technical Implementation  
 
-✔ Collaborated with a team, applying version control workflows (branching, merging, pull requests) to streamline development.
+### Core Functionality  
 
-✔ Designed an API reference and technical documentation using Sphinx and Read the Docs, ensuring clarity for users.
+This package includes the following key functions:  
 
-### Technical Implementation
+- `get_tdee()`: Calculates Total Daily Energy Expenditure (TDEE) based on BMR and activity level.  
 
-1️⃣ Core Functionality
-The package provides key health-related calculations:
+- `get_bmi()`: Computes Body Mass Index (BMI) and classifies users (underweight, normal, overweight, obese). 
 
-📌 get_tdee() – Calculates Total Daily Energy Expenditure (TDEE) based on BMR and activity level.
+- `get_bmr()`: Uses the Harris-Benedict equation to compute Basal Metabolic Rate (BMR).  
 
-📌 get_bmi() – Computes Body Mass Index (BMI) and classifies users into categories (underweight, normal, overweight, obese).
-
-📌 get_bmr() – Uses the Harris-Benedict equation to compute Basal Metabolic Rate (BMR) based on weight, height, age, and sex.
-
-📌 unit_convert() – Converts between metric and imperial units for weight, height, temperature, and volume.
-
-💡 Each function is rigorously tested and optimized to provide high-accuracy calculations.
-
-2️⃣ Continuous Integration & Deployment (CI/CD)
-To ensure code stability and reliability, I implemented GitHub Actions for CI/CD, enabling:
-
-✔ Automated testing via Pytest after every code commit or pull request.
-✔ Linting and style checks using Pylint to maintain code consistency.
-✔ Test coverage reporting using pytest-cov and Codecov for tracking improvements.
-✔ Automated package deployment to PyPI using GitHub Actions, ensuring seamless updates.
-
-🔹 CI/CD Workflow Overview:
-
-Push or Pull Request: Triggers automated tests on GitHub Actions.
-Run Pytest: Tests all functions for expected outputs, error handling, and edge cases.
-Deploy to PyPI: If all tests pass, the package is automatically updated on PyPI.
-💡 Impact: CI/CD ensures code quality, early bug detection, and smooth integration into production.
-
-3️⃣ Automated Testing with Pytest
-Testing is crucial in health applications, so I implemented comprehensive unit tests using Pytest:
-
-✔ Validated all health metric calculations against known industry standards.
-✔ Implemented edge-case handling (e.g., division by zero, incorrect input types).
-✔ Ran parameterized tests to ensure correctness across various inputs.
-✔ Tracked test coverage using pytest-cov, achieving 100% test coverage.
+- `unit_convert()`: Converts between metric and imperial units for weight, height, temperature, and volume.  
 
 
-### Key Takeaways & Impact
-🚀 Developing a robust Python package strengthened my skills in:
+Each function was carefully tested to ensure accuracy and reliability.
 
-✔ Software Development – Object-oriented programming, modular design, API development.
 
-✔ Machine Learning & Analytics – Data validation, unit conversions, structured data processing.
 
-✔ Automation & CI/CD – GitHub Actions, Pytest, automated package deployment.
+### Continuous Integration & Deployment (CI/CD)  
 
-✔ Team Collaboration – Git workflows, issue tracking, and effective code documentation.
 
-✔ Technical Communication – Writing clear documentation and API references for user accessibility.
+This project uses GitHub Actions to automate the development workflow:  
 
-This project enhanced my ability to develop scalable, well-tested software solutions, a skill directly applicable to data engineering, AI, and healthcare analytics roles.
+- Automated testing using Pytest on every commit and pull request. 
+- Linting and code style checks with Pylint.  
+- Test coverage tracking with pytest-cov & Codecov.  
+- Automatic deployment to PyPI, ensuring up-to-date releases.  
 
+#### CI/CD Workflow:
+1. Code changes are pushed or a pull request is opened.  
+2. GitHub Actions runs Pytest to validate functionality.  
+3. If all tests pass, the package is automatically deployed to PyPI.  
+
+This setup ensures code stability, early bug detection, and seamless integration.
+
+
+
+### Automated Testing with Pytest  
+
+
+- Comprehensive unit tests for all health calculations.  
+- Edge-case handling*(invalid inputs, zero values, negative values).  
+- Parameterized tests to validate accuracy across different inputs.  
+- Test coverage tracking with pytest-cov, achieving 100% test coverage.
+
+
+
+
+## Key Takeaways & Impact
+This project strengthened my skills in:  
+
+- **Software Development** → Object-oriented programming, API design.  
+- **Data Processing & Analytics** → Structured data handling, validation.
+- **Automation & CI/CD** → GitHub Actions, Pytest, automated deployments. 
+- **Collaborative Development** → Git version control, team coordination. 
+- **Technical Communication** → API documentation, user guides.  
+
+By developing this package, I gained experience in building scalable and well-tested software solutions, with direct applications in data science, AI, and healthcare analytics.
+
+[Github Repository](https://github.com/UBC-MDS/HealthScienceCalculator){.btn .btn-outline-dark}
+
+
+---
+[⬅ Back to Projects](../projects.qmd)
