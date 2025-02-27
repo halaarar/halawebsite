@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>projects – Hala Arar | Data Science Portfolio</title>
+<title>Explore My Projects! – Hala Arar | Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dd08061cb7210c315e315379d94beb87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -88,10 +87,37 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">All Projects</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/health_science_calculator.html">
+ <span class="dropdown-text">Health Science Calculator</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/bank_marketing_prediction.qmd">
+ <span class="dropdown-text">Bank Marketing Prediction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/credit_card_default.html">
+ <span class="dropdown-text">Credit Card Default Prediction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/nyc_arrest_dashboard.html">
+ <span class="dropdown-text">NYC Arrest Dashboard</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/data_science_starter_kit.html">
+ <span class="dropdown-text">Data Science Starter Kit</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./education.qmd"> 
 <span class="menu-text">Education</span></a>
@@ -134,114 +160,92 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
-
-
-
-
-<section id="my-projects" class="level1">
-<h1>My Projects</h1>
-<p>Welcome to a summary of some of my most exciting projects! Each one represents a unique application of data science, machine learning, and analytics to solve real-world problems. Click on the links to explore the full project details and GitHub repositories.</p>
-<section id="health-science-calculator" class="level2">
-<h2 class="anchored" data-anchor-id="health-science-calculator">Health Science Calculator</h2>
-<p>Health Science Calculator is a Python package designed to provide accurate and efficient health metric calculations. It supports Total Daily Energy Expenditure (TDEE), Basal Metabolic Rate (BMR), and Body Mass Index (BMI) computations, making it useful for health professionals, researchers, and fitness enthusiasts.</p>
-<p>This project was developed as part of a collaborative effort using best practices in software engineering, automation, and version control to ensure code quality, maintainability, and scalability.</p>
-<section id="project-goals-contributions" class="level3">
-<h3 class="anchored" data-anchor-id="project-goals-contributions">Project Goals &amp; Contributions</h3>
-<p>✔ Developed a modular Python package for health-related calculations using object-oriented programming (OOP) principles. ✔ Implemented core functions to compute BMI, BMR, TDEE, and perform unit conversions to standardize health data. ✔ Integrated Pytest for automated testing, ensuring the accuracy of implemented functions and maintaining 100% test coverage. ✔ Leveraged GitHub Actions for CI/CD, automating testing, deployment, and ensuring seamless version control. ✔ Published the package to PyPI, making it accessible for installation and use via pip install healthsciencecalculator. ✔ Collaborated with a team, applying version control workflows (branching, merging, pull requests) to streamline development. ✔ Designed an API reference and technical documentation using Sphinx and Read the Docs, ensuring clarity for users.</p>
-<p>Technical Implementation 1️⃣ Core Functionality The package provides key health-related calculations:</p>
-<p>📌 get_tdee() – Calculates Total Daily Energy Expenditure (TDEE) based on BMR and activity level. 📌 get_bmi() – Computes Body Mass Index (BMI) and classifies users into categories (underweight, normal, overweight, obese). 📌 get_bmr() – Uses the Harris-Benedict equation to compute Basal Metabolic Rate (BMR) based on weight, height, age, and sex. 📌 unit_convert() – Converts between metric and imperial units for weight, height, temperature, and volume.</p>
-<p>💡 Each function is rigorously tested and optimized to provide high-accuracy calculations.</p>
-<p>2️⃣ Continuous Integration &amp; Deployment (CI/CD) To ensure code stability and reliability, I implemented GitHub Actions for CI/CD, enabling:</p>
-<p>✔ Automated testing via Pytest after every code commit or pull request. ✔ Linting and style checks using Pylint to maintain code consistency. ✔ Test coverage reporting using pytest-cov and Codecov for tracking improvements. ✔ Automated package deployment to PyPI using GitHub Actions, ensuring seamless updates.</p>
-<p>🔹 CI/CD Workflow Overview:</p>
-<p>Push or Pull Request: Triggers automated tests on GitHub Actions. Run Pytest: Tests all functions for expected outputs, error handling, and edge cases. Deploy to PyPI: If all tests pass, the package is automatically updated on PyPI. 💡 Impact: CI/CD ensures code quality, early bug detection, and smooth integration into production.</p>
-<p>3️⃣ Automated Testing with Pytest Testing is crucial in health applications, so I implemented comprehensive unit tests using Pytest:</p>
-<p>✔ Validated all health metric calculations against known industry standards. ✔ Implemented edge-case handling (e.g., division by zero, incorrect input types). ✔ Ran parameterized tests to ensure correctness across various inputs. ✔ Tracked test coverage using pytest-cov, achieving 100% test coverage.</p>
-<p>💡 Testing Commands:</p>
-<p>bash Copy Edit # Run all tests pytest</p>
-</section>
-</section>
-</section>
-<section id="run-tests-with-coverage-report" class="level1">
-<h1>Run tests with coverage report</h1>
-<p>pytest –cov=healthsciencecalculator 4️⃣ Collaboration &amp; Version Control Working on this project in a team required effective version control:</p>
-<p>✔ Used GitHub for repository management, implementing branching strategies and pull requests. ✔ Code reviews were conducted for all new features, ensuring high-quality contributions. ✔ Maintained a changelog to document package updates and feature improvements.</p>
-<p>Installation &amp; Usage 📌 Install the package via pip:</p>
-<p>bash Copy Edit pip install healthsciencecalculator 📌 Example Usage:</p>
-<p>python Copy Edit from healthsciencecalculator import get_bmi, get_tdee</p>
-</section>
-<section id="calculate-bmi" class="level1">
-<h1>Calculate BMI</h1>
-<p>bmi_result = get_bmi(weight=70, height=1.75) print(f”BMI: {bmi_result.bmi:.2f}, Category: {bmi_result.category}“)</p>
-</section>
-<section id="calculate-tdee" class="level1">
-<h1>Calculate TDEE</h1>
-<p>tdee = get_tdee(bmr=1500, activity_level=“moderately active”) print(f”TDEE: {tdee:.2f} kcal/day”) Key Takeaways &amp; Impact 🚀 Developing a robust Python package strengthened my skills in: ✔ Software Development – Object-oriented programming, modular design, API development. ✔ Machine Learning &amp; Analytics – Data validation, unit conversions, structured data processing. ✔ Automation &amp; CI/CD – GitHub Actions, Pytest, automated package deployment. ✔ Team Collaboration – Git workflows, issue tracking, and effective code documentation. ✔ Technical Communication – Writing clear documentation and API references for user accessibility.</p>
-<p>This project enhanced my ability to develop scalable, well-tested software solutions, a skill directly applicable to data engineering, AI, and healthcare analytics roles.</p>
-<section id="bank-marketing-predictions" class="level2">
-<h2 class="anchored" data-anchor-id="bank-marketing-predictions">Bank Marketing predictions</h2>
-<p>Overview The Bank Marketing Prediction Project applies machine learning techniques to enhance bank marketing strategies by predicting whether a customer will subscribe to a term deposit based on demographic and campaign-related data.</p>
-<p>The goal was to develop a predictive model that helps banks optimize resource allocation, minimize marketing costs, and improve customer conversion rates. This project incorporated end-to-end data science workflows, data preprocessing, and model evaluation to identify the most effective approach for targeted marketing.</p>
-<p>💡 Key Contributions &amp; Impact ✔ Developed predictive models to classify customer responses to bank marketing campaigns. ✔ Built a fully reproducible machine learning pipeline using Python and Jupyter Notebooks. ✔ Implemented Docker for containerized deployment, ensuring portability across environments. ✔ Used GitHub Actions for CI/CD, automating testing and workflow execution. ✔ Applied statistical analysis and feature engineering to optimize model performance. ✔ Conducted error analysis and class imbalance handling to enhance predictions. ✔ Created a structured reporting system, generating a detailed analysis of the models’ effectiveness.</p>
-<p>Project Objectives 🔹 Predict Customer Subscription Behavior: Determine whether a customer will subscribe to a term deposit based on demographic and campaign-related data. 🔹 Optimize Marketing Strategies: Identify patterns in customer responses to improve targeting and reduce costs. 🔹 Automate Data Processing &amp; Model Training: Develop a scalable pipeline using Click, Docker, and Makefiles. 🔹 Enhance Model Interpretability: Implement feature importance analysis to guide data-driven decision-making.</p>
-<p>Technical Implementation 1️⃣ Data Preprocessing &amp; Feature Engineering Processing raw customer data involved several key steps: ✔ Handled missing values and inconsistencies using pandas and NumPy. ✔ Applied feature scaling and normalization for numerical attributes. ✔ Used one-hot encoding to convert categorical variables into a machine-readable format. ✔ Class balancing techniques (oversampling, undersampling) to address the imbalance between subscribers and non-subscribers.</p>
-<p>Example Code for Data Cleaning &amp; Feature Engineering:</p>
-<p>python Copy Edit from sklearn.preprocessing import StandardScaler, OneHotEncoder import pandas as pd</p>
-</section>
-</section>
-<section id="load-dataset" class="level1">
-<h1>Load dataset</h1>
-<p>df = pd.read_csv(“data/bank-additional-full.csv”)</p>
-</section>
-<section id="feature-scaling" class="level1">
-<h1>Feature scaling</h1>
-<p>scaler = StandardScaler() df[[“age”, “campaign”, “previous”]] = scaler.fit_transform(df[[“age”, “campaign”, “previous”]])</p>
-</section>
-<section id="one-hot-encoding-categorical-features" class="level1">
-<h1>One-hot encoding categorical features</h1>
-<p>encoder = OneHotEncoder() encoded_features = encoder.fit_transform(df[[“job”, “marital”, “education”]]).toarray() 2️⃣ Machine Learning Models &amp; Performance Evaluation Implemented two machine learning models:</p>
-<p>📌 Logistic Regression</p>
-<p>Focused on interpretability and explainability. Prioritized minimizing false positives, achieving high precision (0.70). Used L1 regularization to prevent overfitting. 📌 Decision Tree Classifier</p>
-<p>More flexible in handling non-linear relationships. Achieved higher recall (0.23) but increased false positives. Required pruning and hyperparameter tuning for optimal performance. ✔ Performance Metrics Used:</p>
-<p>Accuracy: Measures overall correctness. Precision: Reduces false positives (important for targeted marketing). Recall: Identifies more actual subscribers. F1 Score: Balances precision and recall. Model Performance Results:</p>
-<p>Model Accuracy Precision Recall F1 Score Logistic Regression 88.5% 0.70 0.20 0.31 Decision Tree 89.7% 0.64 0.23 0.34 💡 Findings:</p>
-<p>Logistic Regression was best for reducing false positives. Decision Tree performed better in identifying actual subscribers. Further model tuning needed to balance precision and recall. 3️⃣ CI/CD &amp; Automation with Docker &amp; GitHub Actions To ensure reproducibility and scalability, I implemented CI/CD pipelines using Docker &amp; GitHub Actions.</p>
-<p>✔ Dockerized the project for easy deployment. ✔ Automated testing using Pytest to validate model outputs. ✔ GitHub Actions triggered CI/CD workflows, ensuring seamless execution.</p>
-<p>Example of Dockerized Workflow:</p>
-<p>yaml Copy Edit name: CI/CD Pipeline</p>
-<p>on: push: branches: - main</p>
-<p>jobs: build: runs-on: ubuntu-latest steps: - name: Checkout code uses: actions/checkout@v2 - name: Set up Python uses: actions/setup-python@v2 with: python-version: “3.10” - name: Install dependencies run: pip install -r requirements.txt - name: Run tests run: pytest –cov=src 🚀 Impact: CI/CD automation reduced manual intervention, ensuring code integrity and rapid deployment.</p>
-<p>4️⃣ Running the Analysis 💡 Option 1: Run Using Docker 1️⃣ Install Docker. 2️⃣ Clone the repository.</p>
-<p>bash Copy Edit git clone https://github.com/mindy001/BankMarketingPreditions-.git cd BankMarketingPreditions- 3️⃣ Start the container.</p>
-<p>bash Copy Edit docker-compose up 4️⃣ Access JupyterLab for interactive analysis.</p>
-<p>💡 Option 2: Run Using Makefile 1️⃣ Clone repository and activate environment.</p>
-<p>bash Copy Edit git clone https://github.com/mindy001/BankMarketingPreditions-.git cd BankMarketingPreditions- conda env create -f env/environment.yml<br>
-conda activate bankenv 2️⃣ Generate analysis report.</p>
-<p>bash Copy Edit make all 3️⃣ Open the generated PDF report.</p>
-<p>Key Takeaways &amp; Impact 🚀 Through this project, I gained experience in: ✔ Building scalable ML models – Data preprocessing, feature engineering, model selection. ✔ Data Engineering &amp; Pipelines – Automated workflows using Makefile and Docker. ✔ Machine Learning for Marketing – Class imbalance handling, precision-recall tradeoffs. ✔ CI/CD &amp; Automation – GitHub Actions for testing, deployment, and reproducibility. ✔ Version Control &amp; Collaboration – GitHub repository management, pull requests, team contributions.</p>
-<p>🔹 Future Enhancements: ✅ Hyperparameter tuning using GridSearchCV for improved accuracy. ✅ Feature selection analysis to reduce redundant variables. ✅ Deploying an API to allow real-time model inference for banks.</p>
-<p>Final Thoughts This project strengthened my ability to develop end-to-end machine learning solutions for real-world business challenges. By combining ML modeling, automation, and CI/CD, I created a fully scalable, deployable, and interpretable system.</p>
-<p>🔗 Check out the full report: Final Report 🔗 GitHub Repository: Bank Marketing Prediction</p>
-<p>Would love to connect with others interested in marketing analytics, data-driven decision-making, and AI-powered business solutions! 🚀</p>
-<section id="credit-card-default-prediction-project" class="level2">
-<h2 class="anchored" data-anchor-id="credit-card-default-prediction-project">Credit Card Default Prediction Project</h2>
-<p>links that takes you to the project section of this link that takes you to the github page</p>
-<p>• Analyzed and preprocessed the Default of Credit Card Clients dataset to predict credit card payment defaults. • Implemented decision tree models and hyperparameter tuning to optimize model performance. • GitHub Repository: https://github.ubc.ca/mds-2024-25/DSCI_573_Lab4_hala_fazeeia/tree/main</p>
-</section>
-<section id="the-data-science-starter-kit---blog" class="level2">
-<h2 class="anchored" data-anchor-id="the-data-science-starter-kit---blog">The Data Science Starter Kit - Blog</h2>
-<p>Overview A beginner-friendly blog designed to help aspiring data scientists get started with fundamental concepts and practical tools.</p>
-<p>What I Did: ✔ Authored blog posts covering topics such as Git &amp; version control, data visualization, and statistical analysis. ✔ Developed tutorials and code examples to guide beginners through key data science workflows. ✔ Created a promotional video to increase community engagement and drive traffic to the blog. ✔ Maintained a GitHub repository for code snippets, datasets, and Jupyter notebooks. ✔ Collaborated with peers to expand content and ensure clarity for diverse audiences.</p>
-<p>Technologies &amp; Skills Used: 📌 Python | R | Git &amp; Version Control | Data Visualization | Educational Content Creation | Technical Writing</p>
-<p>Ongoing &amp; Future Projects NYPD Arrest Tracker App (Work in Progress) A dashboard designed for NYC government executives to track and analyze NYPD arrest metrics using real 2023 arrest data.</p>
-<p>✔ Developing interactive data visualizations (maps, bar charts, time-series charts) using Plotly and Seaborn. ✔ Designing a user-friendly dashboard with Dash for real-time data exploration. ✔ Implementing filtering options to dynamically analyze crime trends by borough, precinct, and crime type.</p>
+<div class="quarto-about-jolla column-page">
+  <img src="images/projects2.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Explore My Projects!</h1>
+</div>
+<div class="quarto-title-meta column-page">
+  </div>
+</header><main class="content column-page" id="quarto-document-content">
+<div class="grid-container">
+<div class="grid-item">
+<img src="images/med.png" width="100px">
+<h3>
+Health Science Calculator
+</h3>
+<p>
+A Python package for health metric calculations (TDEE, BMI, BMR).
+</p>
+<p><a href="./projects/health_science_calculator.html" class="btn btn-outline-dark">Read More</a></p>
+</div>
+<div class="grid-item">
+<img src="images/bank.png" width="100px">
+<h3>
+Bank Marketing Prediction
+</h3>
+<p>
+Machine learning model to predict customer subscriptions.
+</p>
+<p><a href="./projects/bank_marketing_predictions.html" class="btn btn-outline-dark">Read More</a></p>
+</div>
+<div class="grid-item">
+<img src="images/creditcard.png" width="100px">
+<h3>
+Credit Card Default Prediction
+</h3>
+<p>
+Predicting credit card defaults using decision trees.
+</p>
+<p><a href="./projects/credit_card_default.html" class="btn btn-outline-dark">Read More</a></p>
+</div>
+<div class="grid-item">
+<img src="images/blog.png" width="100px">
+<h3>
+Data Science Starter Kit Blog
+</h3>
+<p>
+Beginner-friendly resources on Git, version control, and best practices.
+</p>
+<p><a href="./projects/data_science_starter_kit.html" class="btn btn-outline-dark">Read More</a></p>
+</div>
+<div class="grid-item">
+<img src="images/nypd.jpg" width="100px">
+<h3>
+NYPD Arrest Tracker
+</h3>
+<p>
+Interactive dashboard analyzing NYC crime data.
+</p>
+<p><a href="./projects/nyc_arrest_dashboard.html" class="btn btn-outline-dark">Read More</a></p>
+</div>
+</div>
+<section id="want-to-see-the-code" class="level1">
+<h1>Want to see the code?</h1>
+<p><a href="https://github.com/halaarar" class="btn btn-outline-dark">View All Projects on GitHub</a></p>
 
 
 </section>
-</section>
-
-</main> <!-- /main -->
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://www.linkedin.com/in/hala-arar-9931a615b/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/halaarar" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="mailto:halaosama92@yahoo.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -262,13 +266,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

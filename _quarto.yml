@@ -7,14 +7,26 @@ website:
     background: "#1E88E5"  # Softer blue instead of dark navy
     foreground: "#FFFFFF"  # White text for contrast
     left:
-      - href: projects.qmd
-        text: Projects
+      - text: Projects
+        menu:
+          - href: projects.qmd
+            text: All Projects
+          - href: projects/health_science_calculator.qmd
+            text: Health Science Calculator
+          - href: projects/bank_marketing_prediction.qmd
+            text: Bank Marketing Prediction
+          - href: projects/credit_card_default.qmd
+            text: Credit Card Default Prediction
+          - href: projects/nyc_arrest_dashboard.qmd
+            text: NYC Arrest Dashboard
+          - href: projects/data_science_starter_kit.qmd
+            text: Data Science Starter Kit
       - href: education.qmd
         text: Education
       - href: work_experience.qmd
         text: Work Experience
       - href: Aboutme.qmd
-        text: About Me 
+        text: About Me
     right:
       - icon: github
         href: https://github.com/halaarar

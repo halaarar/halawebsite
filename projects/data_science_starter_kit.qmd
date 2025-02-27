@@ -1,0 +1,26 @@
+
+## The Data Science Starter Kit - Blog
+Overview
+A beginner-friendly blog designed to help aspiring data scientists get started with fundamental concepts and practical tools.
+
+What I Did:
+✔ Authored blog posts covering topics such as Git & version control, data visualization, and statistical analysis.
+✔ Developed tutorials and code examples to guide beginners through key data science workflows.
+✔ Created a promotional video to increase community engagement and drive traffic to the blog.
+✔ Maintained a GitHub repository for code snippets, datasets, and Jupyter notebooks.
+✔ Collaborated with peers to expand content and ensure clarity for diverse audiences.
+
+Technologies & Skills Used:
+📌 Python | R | Git & Version Control | Data Visualization | Educational Content Creation | Technical Writing
+
+
+
+Ongoing & Future Projects
+NYPD Arrest Tracker App (Work in Progress)
+A dashboard designed for NYC government executives to track and analyze NYPD arrest metrics using real 2023 arrest data.
+
+✔ Developing interactive data visualizations (maps, bar charts, time-series charts) using Plotly and Seaborn.
+✔ Designing a user-friendly dashboard with Dash for real-time data exploration.
+✔ Implementing filtering options to dynamically analyze crime trends by borough, precinct, and crime type.
+
+
