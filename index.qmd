@@ -1,6 +1,6 @@
 ---
 title: "Hala Arar"
-image: hala-profile.jpg
+image: "hala-profile.jpg"
 about:
   template: jolla
   links:
@@ -10,33 +10,38 @@ about:
     - icon: github
       text: Github
       href: https://github.com/halaarar
-
+    - icon: envelope
+      text: Email
+      href: mailto:halaosama92@yahoo.com
+---
 
 
 ---
 
-Welcome to My Website
-Hi, I'm Hala Arar!
-📊 Data Science Enthusiast | 🧬 Biomedical Sciences Graduate | 💡 Curious Problem Solver
 
-Welcome to my personal website! I'm currently a Master of Data Science student at UBC, where I’m honing my skills in machine learning, data analytics, and statistical modeling. My academic background in biomedical sciences with a minor in mathematics has given me an interdisciplinary approach to problem-solving—especially in healthcare, finance, and technology.
 
-I’m passionate about turning data into impactful insights and leveraging AI and machine learning to solve real-world challenges. Whether it’s predicting customer behavior, analyzing healthcare trends, or optimizing financial models, I love applying data-driven solutions to complex problems.
+## Explore My Portfolio!  
 
-What You'll Find Here
-🧑‍🎓 Education: My academic journey, key courses, and why I love data science.
-📂 Projects: A showcase of the data-driven projects I’ve worked on, including predictive modeling, machine learning applications, and interactive dashboards.
-💼 Work Experience: Insights from my professional and research roles, from healthcare to data analytics.
-🏆 Extracurriculars: Beyond data science, I love skiing, badminton, weightlifting, investing, and creative pursuits like sewing and baking.
-📄 Resume: A detailed look at my skills, work experience, and qualifications.
+::: {.grid}
 
-A Little More About Me
-I was born and raised in Saudi Arabia, moved to Canada at 11, and have lived in Ottawa, Peterborough, and now Vancouver! When I’m not analyzing data, you’ll probably find me on a ski slope, in the gym, experimenting with new recipes, or exploring investment strategies.
+::: {.g-col-6}
+[![Projects](images/projects.png){width=150px}](projects.qmd)  
+[Projects](projects.qmd)
+:::
 
-Let’s Connect!
-Feel free to reach out—I'd love to chat about data science, AI, finance, or just life in general!
+::: {.g-col-6}
+[![Education](images/education.png){width=150px}](Education.qmd)  
+[Education](Education.qmd)
+:::
 
-📧 Email: halaosama92@yahoo.com
-🔗 LinkedIn: linkedin.com/in/hala-arar
-🐙 GitHub: github.com/halaarar
+::: {.g-col-6}
+[![Work Experience](images/work.png){width=150px}](Work_Experience.qmd)  
+[Work Experience](Work_Experience.qmd)
+:::
 
+::: {.g-col-6}
+[![About Me](images/aboutme.jpg){width=150px}](Aboutme.qmd)  
+[About Me](Aboutme.qmd)
+:::
+
+:::

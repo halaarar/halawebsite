@@ -2,27 +2,33 @@ project:
   type: website
 
 website:
-  title: "Hala Arar"
+  title: "Hala Arar | Data Science Portfolio"
   navbar:
+    background: "#1E88E5"  # Softer blue instead of dark navy
+    foreground: "#FFFFFF"  # White text for contrast
     left:
-      - href: index.qmd
-        text: Home
-      - href: Education.qmd
-        text: Education
       - href: projects.qmd
         text: Projects
-      - href: Work_Experience.qmd
+      - href: education.qmd
+        text: Education
+      - href: work_experience.qmd
         text: Work Experience
-      - href: Extracurriculars.qmd
-        text: Extracurriculars
-
+      - href: Aboutme.qmd
+        text: About Me 
     right:
       - icon: github
         href: https://github.com/halaarar
       - icon: linkedin
         href: https://www.linkedin.com/in/hala-arar-9931a615b/
+      - icon: envelope
+        href: mailto:halaosama92@yahoo.com
 
-
-
-
-
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: false
+    page-layout: full
+    highlight-style: monokai
+    fontfamily: "Poppins, sans-serif"  # More fun and modern
+    fontsize: 17px

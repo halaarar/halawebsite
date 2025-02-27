@@ -3,6 +3,13 @@
 # About Me; 
 
 About Me
+
+I started out as a Biomedical Sciences student, but I quickly realized that my true passion lay in the analytical side of mathematics. I’ve always loved problem-solving—the kind of deep, immersive puzzles that demand focus, logic, and persistence. There’s a rush that comes with solving complex problems, and I don’t rest until I find the answer.
+
+As I progressed through my undergraduate studies, I decided to pursue a minor in mathematics purely out of passion. I became particularly drawn to statistics and its ability to uncover insights, drive decision-making, and shape the world around us. The power of data and machine learning in advancing society fascinated me, and that’s when I knew I wanted to pursue a Master’s in Data Science.
+
+Now, I want to leverage AI and machine learning in healthcare, combining my backgrounds in biomedical sciences, mathematics, and data science to drive innovation in the field. Having worked firsthand in healthcare, I’ve seen the impact that better predictive models, data-driven decisions, and automation can have on patient outcomes. Whether it’s enhancing diagnostics, optimizing treatments, or improving operational efficiency, I’m excited to contribute to the future of data-driven healthcare solutions.
+
 I was born and raised in Saudi Arabia and moved to Canada when I was 11 years old. I spent a year in Ottawa before settling in Peterborough, ON, where I completed middle school, high school at Crestwood Secondary School, and my undergraduate degree at Trent University.
 
 In August 2025, I moved to Vancouver to pursue my Master’s in Data Science at UBC, and I’ve been loving it so far! The mountains, ocean, and active lifestyle make it an amazing place to live, and I’ve been taking full advantage of everything the city has to offer.
