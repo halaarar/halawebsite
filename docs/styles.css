@@ -1,0 +1,132 @@
+/* =========== GENERAL STYLES =========== */
+
+/* Ensure all body text is left-aligned */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2C3E50;
+    background-color: #FAFAFA;
+    line-height: 1.7;
+    text-align: left; /* Left-align all content */
+}
+
+/* Headings */
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #2C3E50;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;  /* ONLY H1 is centered */
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #2C3E50;
+    text-align: left;  /* Ensure H2 and H3 are left-aligned */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 1.2rem;
+    text-align: left !important;  /* Ensures paragraphs are left-aligned */
+}
+
+/* Ensure lists are always left-aligned */
+ul, ol {
+    text-align: left !important;
+    margin-left: 20px; /* Adds indentation */
+}
+
+/* Ensure div containers with auto-centering stay left-aligned */
+.container, .content {
+    text-align: left !important;
+    margin-left: 0;
+}
+
+/* =========== CENTERED CONTENT STYLES =========== */
+/* Center specific elements like buttons, badges, and images */
+.center-content {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ensure images and links inside .center-content are centered */
+.center-content img, 
+.center-content a {
+    display: block;
+    margin: 10px auto;
+}
+
+/* =========== NAVBAR =========== */
+.navbar {
+    background-color: #1E88E5 !important;
+    padding: 15px;
+    border-bottom: 3px solid #1565C0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FDD835 !important;
+}
+
+/* Indented dropdown items */
+.navbar .dropdown-menu {
+    background-color: #1E88E5;
+    border: none;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #FFFFFF !important;
+    font-size: 1rem;
+    text-indent: 15px; /* Indent text inside dropdown */
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #1565C0;
+    color: #FDD835 !important;
+}
+
+/* =========== EXPLORE MY PAGE SECTION =========== */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.grid-item {
+    background: #FFFFFF;
+    padding: 1.8rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.grid-item:hove
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
