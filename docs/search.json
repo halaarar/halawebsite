@@ -46,7 +46,7 @@
     "href": "index.html#explore-my-portfolio",
     "title": "Hala Arar",
     "section": "Explore My Portfolio!",
-    "text": "Explore My Portfolio!\n\n\n\nProjects\n\n\n\nEducation\n\n\n\nWork Experience\n\n\n\nAbout Me"
+    "text": "Explore My Portfolio!\n\n\n\nProjects\n\n\n\nEducation"
   },
   {
     "objectID": "Aboutme.html",
@@ -137,7 +137,7 @@
     "href": "projects/data_science_starter_kit.html",
     "title": "The Data Science Starter Kit - Blog",
     "section": "",
-    "text": "The Data Science Starter Kit Blog is a beginner-friendly resource designed to help aspiring data scientists navigate fundamental concepts and practical tools.\nThis project aims to simplify the learning process by offering step-by-step tutorials, code examples, and educational content to build a strong foundation in data science.\n\n\n\n\n\nAuthored educational blog posts covering topics such as:\n\nGit & Version Control – Managing and tracking code efficiently.\nData Visualization – Using Python libraries for storytelling with data.\n\nDeveloped hands-on tutorials and code examples, guiding beginners through essential data science workflows.\nMaintained a GitHub repository with code snippets, datasets, and Jupyter Notebooks to complement the blog content.\nCreated a promotional video to increase engagement and drive traffic to the blog.\n\n\n\n\n\n\n\n\nPython – Writing clean and reproducible code.\n\nGit & GitHub – Implementing version control for collaboration and project tracking.\n\nTechnical Writing – Explaining complex topics in an accessible way.\n\nContent Creation & Video Editing – Producing engaging educational material.\n\n\n\n\n\n\nThrough this project, I strengthened my skills in: - Technical Communication – Writing clear, structured explanations for data science concepts. - Software Development & Best Practices – Using GitHub for version control and project management. - Educational Content Creation – Designing learning materials for data science beginners. - Community Engagement – Promoting knowledge-sharing through accessible online resources.\nGithub Repository\nRead the Blog\nWatch the Promotional Video\n\n⬅ Back to Projects"
+    "text": "The Data Science Starter Kit Blog is a beginner-friendly resource designed to help aspiring data scientists navigate fundamental concepts and practical tools.\nThis project aims to simplify the learning process by offering step-by-step tutorials, code examples, and educational content to build a strong foundation in data science.\n\n\n\n\n\nAuthored educational blog posts covering topics such as:\n\nGit & Version Control – Managing and tracking code efficiently.\nData Visualization – Using Python libraries for storytelling with data.\n\nDeveloped hands-on tutorials and code examples, guiding beginners through essential data science workflows.\nMaintained a GitHub repository with code snippets, datasets, and Jupyter Notebooks to complement the blog content.\nCreated a promotional video to increase engagement and drive traffic to the blog.\n\n\n\n\n\n\n\n\nPython – Writing clean and reproducible code.\n\nGit & GitHub – Implementing version control for collaboration and project tracking.\n\nTechnical Writing – Explaining complex topics in an accessible way.\n\nContent Creation & Video Editing – Producing engaging educational material.\n\n\n\n\n\n\nThrough this project, I strengthened my skills in:\n\nTechnical Communication – Writing clear, structured explanations for data science concepts.\nSoftware Development & Best Practices – Using GitHub for version control and project management.\nEducational Content Creation – Designing learning materials for data science beginners.\nCommunity Engagement – Promoting knowledge-sharing through accessible online resources.\n\nGithub Repository\nRead the Blog\nWatch the Promotional Video\n\n⬅ Back to Projects"
   },
   {
     "objectID": "projects/data_science_starter_kit.html#overview",
@@ -165,7 +165,7 @@
     "href": "projects/data_science_starter_kit.html#key-takeaways-impact",
     "title": "The Data Science Starter Kit - Blog",
     "section": "",
-    "text": "Through this project, I strengthened my skills in: - Technical Communication – Writing clear, structured explanations for data science concepts. - Software Development & Best Practices – Using GitHub for version control and project management. - Educational Content Creation – Designing learning materials for data science beginners. - Community Engagement – Promoting knowledge-sharing through accessible online resources.\nGithub Repository\nRead the Blog\nWatch the Promotional Video\n\n⬅ Back to Projects"
+    "text": "Through this project, I strengthened my skills in:\n\nTechnical Communication – Writing clear, structured explanations for data science concepts.\nSoftware Development & Best Practices – Using GitHub for version control and project management.\nEducational Content Creation – Designing learning materials for data science beginners.\nCommunity Engagement – Promoting knowledge-sharing through accessible online resources.\n\nGithub Repository\nRead the Blog\nWatch the Promotional Video\n\n⬅ Back to Projects"
   },
   {
     "objectID": "projects/health_science_calculator.html",

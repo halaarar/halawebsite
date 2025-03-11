@@ -41,7 +41,7 @@ Throughout the program, I’ve worked on collaborative projects, applying these 
 
 ## Bachelor's in Biomedical Sciences - Trent University (September 2020 - April 2024)
 
-<img src="images/images.png" alt="UBC Logo" width="130" class="mx-auto d-block">
+<img src="images/trent.png" alt="Trent Logo" width="130" class="mx-auto d-block">
 
 I completed my undergraduate degree in Biomedical Sciences with a Minor in Mathematics at Trent University. My academic journey was shaped by my dual passion for biology and mathematics, which led me to a degree that merges both disciplines.
 

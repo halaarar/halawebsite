@@ -5,8 +5,8 @@ project:
 website:
   title: "Hala Arar | Data Science Portfolio"
   navbar:
-    background: "#1E88E5"  # Softer blue instead of dark navy
-    foreground: "#FFFFFF"  # White text for contrast
+    background: "#1E88E5"  
+    foreground: "#FFFFFF"  
     left:
       - text: Projects
         menu:
@@ -22,10 +22,7 @@ website:
             text: Data Science Starter Kit
       - href: Education.qmd
         text: Education
-      - href: work_experience.qmd
-        text: Work Experience
-      - href: Aboutme.qmd
-        text: About Me
+
     right:
       - icon: github
         href: https://github.com/halaarar
@@ -41,5 +38,5 @@ format:
     toc: false
     page-layout: full
     highlight-style: monokai
-    fontfamily: "Poppins, sans-serif"  # More fun and modern
+    fontfamily: "Poppins, sans-serif" 
     fontsize: 17px

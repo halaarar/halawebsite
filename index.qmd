@@ -35,14 +35,4 @@ about:
 [Education](Education.qmd)
 :::
 
-::: {.g-col-6}
-[![Work Experience](images/work.png){width=150px}](Work_Experience.qmd)  
-[Work Experience](Work_Experience.qmd)
-:::
-
-::: {.g-col-6}
-[![About Me](images/aboutme.jpg){width=150px}](Aboutme.qmd)  
-[About Me](Aboutme.qmd)
-:::
-
 :::
