@@ -58,11 +58,8 @@ This project aims to **simplify the learning process** by offering **step-by-ste
 Through this project, I strengthened my skills in:
 
 - **Technical Communication** – Writing clear, structured explanations for data science concepts.
-
 - **Software Development & Best Practices** – Using GitHub for version control and project management.
-
 - **Educational Content Creation** – Designing learning materials for data science beginners.
-
 - **Community Engagement** – Promoting knowledge-sharing through accessible online resources.
 
 
