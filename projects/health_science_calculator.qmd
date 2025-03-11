@@ -1,6 +1,6 @@
 ---
 title: "Health Science Calculator "
-image: "/images/med.png"
+image: "../images/med.png"
 about:
   template: jolla
   links:
