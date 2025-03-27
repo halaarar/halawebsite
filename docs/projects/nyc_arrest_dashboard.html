@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>NYPD Arrest Tracker App (Work in Progress) – Hala Arar | Data Science Portfolio</title>
+<title>NYPD Arrest Tracker App – Hala Arar | Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
   round " style="height: 15em; width: 15em;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">NYPD Arrest Tracker App (Work in Progress)</h1>
+<h1 class="title">NYPD Arrest Tracker App</h1>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
@@ -164,63 +164,29 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="overview" class="level2">
 <h2 data-anchor-id="overview">Overview</h2>
-<p>The <strong>NYPD Arrest Tracker App</strong> is a <strong>collaborative data science project</strong> aimed at providing <strong>NYC government executives</strong> with a <strong>unified dashboard</strong> for monitoring <strong>arrest statistics</strong> across the city.</p>
-<p>The goal of this project was to create an <strong>interactive and data-driven tool</strong> that allows policymakers to <strong>track trends, analyze arrest data, and make evidence-based decisions</strong> regarding law enforcement and public safety initiatives.</p>
+<p>The <strong>NYPD Arrest Tracker App</strong> is a collaborative data science project aimed at providing NYC government executives with a unified dashboard for monitoring arrest statistics** across the city.</p>
+<p>The goal of this project was to create an interactive and data-driven tool that allows policymakers to track trends, analyze arrest data, and make evidence-based decisions regarding law enforcement and public safety initiatives.</p>
+<p>Collaborators: Michael Gelfand, Michael Hewlett</p>
 <hr>
 </section>
-<section id="project-goals-contributions" class="level2">
-<h2 data-anchor-id="project-goals-contributions">Project Goals &amp; Contributions</h2>
-<p>This project was designed to address the challenges of inconsistent, redundant, and fragmented arrest data across various NYC departments. Our solution provides a centralized and interactive dashboard that allows policymakers to:</p>
-<ul>
-<li><strong>Monitor Trends</strong> – Track the evolution of arrest rates across different crime types, demographics, and locations.</li>
-<li><strong>Enhance Decision-Making</strong> – Use data-driven insights to inform policy changes and resource allocation.</li>
-<li><strong>Optimize Law Enforcement Initiatives</strong> – Measure the effectiveness of public safety campaigns.</li>
-<li><strong>Improve Data Accessibility</strong> – Consolidate arrest statistics into a single, intuitive visualization tool.</li>
-</ul>
-<hr>
+<section id="live-demo" class="level2">
+<h2 data-anchor-id="live-demo">Live Demo</h2>
+<p><img src="../images/demo.gif" class="img-fluid"></p>
 </section>
 <section id="technical-implementation" class="level2">
 <h2 data-anchor-id="technical-implementation">Technical Implementation</h2>
-<section id="data-processing-engineering" class="level3">
-<h3 data-anchor-id="data-processing-engineering">Data Processing &amp; Engineering</h3>
 <ul>
-<li><strong>Cleaned and structured</strong> arrest data for efficient visualization.</li>
-<li><strong>Handled missing values and standardized variables</strong> for accuracy.</li>
-<li><strong>Optimized data formats</strong> for interactive dashboard integration.</li>
+<li><strong>Designing a responsive sidebar</strong> with custom filters for crime type, precinct vs.&nbsp;borough, and date ranges</li>
+<li><strong>Creating the calendar-based date selector</strong> to allow time-based analysis</li>
+<li><strong>Improving dashboard performance</strong> with function caching using <code>Flask-Caching</code></li>
+<li><strong>Cleaning and transforming geographic and demographic datasets</strong> using <code>pandas</code> and <code>GeoPandas</code></li>
+<li><strong>Coordinating version control</strong> with GitHub issues, branches, and pull requests</li>
+<li><strong>Writing documentation</strong> including the final README and setup instructions</li>
 </ul>
-</section>
-<section id="dashboard-development" class="level3">
-<h3 data-anchor-id="dashboard-development">Dashboard Development</h3>
-<ul>
-<li><strong>Built interactive visualizations</strong> using Plotly &amp; Dash.</li>
-<li><strong>Implemented data filtering</strong> to allow customized user analysis.</li>
-<li><strong>Optimized map rendering</strong> for smooth, real-time exploration.</li>
-</ul>
-</section>
-<section id="deployment-uiux" class="level3">
-<h3 data-anchor-id="deployment-uiux">Deployment &amp; UI/UX</h3>
-<ul>
-<li><strong>Containerized dashboard using Docker</strong> for seamless deployment.</li>
-<li><strong>Designed user-friendly navigation</strong> for intuitive decision-making.</li>
-</ul>
-</section>
 </section>
 <section id="app-sketch-design" class="level2">
 <h2 data-anchor-id="app-sketch-design">App Sketch &amp; Design</h2>
 <p><img src="../images/nyc.png" class="img-fluid"></p>
-<p>The dashboard consists of:</p>
-<ul>
-<li><strong>Interactive NYC Map</strong> – Displays precinct-level arrest data.<br>
-</li>
-<li><strong>Bar Chart</strong> – Visualizes crime frequency with drill-down capabilities.<br>
-</li>
-<li><strong>Time-Series Density Plot</strong> – Tracks arrest trends across time.<br>
-</li>
-<li><strong>Pie Charts</strong> – Show arrest distributions by age and gender.<br>
-</li>
-<li><strong>Sidebar</strong> – Allows filtering by date, location, and crime type.</li>
-</ul>
-<p>This structured design ensures fast and intuitive exploration of arrest trends.</p>
 </section>
 <section id="key-takeaways-impact" class="level2">
 <h2 data-anchor-id="key-takeaways-impact">Key Takeaways &amp; Impact</h2>
@@ -233,6 +199,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>This project highlights the real-world impact of data science in law enforcement and public policy.</p>
 <p><a href="https://github.com/UBC-MDS/DSCI-532_2025_22_nyc-arrest-tracker" class="btn btn-outline-dark">Github Repository</a></p>
+<p><a href="https://dsci-532-2025-22-nyc-arrest-tracker.onrender.com" class="btn btn-outline-dark">Explore the Dashboard</a></p>
 <hr>
 <p><a href="../projects.html">⬅ Back to Projects</a></p>
 

@@ -35,6 +35,7 @@ Health Science Calculator is a Python package designed to provide accurate and e
 
 This project was developed as part of a collaborative effort using best practices in software engineering, automation, and version control to ensure code quality, maintainability, and scalability. This package was designed to be useful for health professionals, researchers, and fitness enthusiasts.
 
+Collaborators: Akosua, Jiayi Li, Tengwei Wang
 ---
 
 ## Project Goals & Contributions

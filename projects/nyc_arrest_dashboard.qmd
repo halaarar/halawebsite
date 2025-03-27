@@ -1,5 +1,5 @@
 ---
-title: "NYPD Arrest Tracker App (Work in Progress)"
+title: "NYPD Arrest Tracker App"
 image: "../images/nypd.jpg"
 about:
   template: jolla
@@ -26,56 +26,30 @@ about:
 
 ## Overview
 
-The **NYPD Arrest Tracker App** is a **collaborative data science project** aimed at providing **NYC government executives** with a **unified dashboard** for monitoring **arrest statistics** across the city. 
+The **NYPD Arrest Tracker App** is a collaborative data science project aimed at providing NYC government executives with a unified dashboard for monitoring arrest statistics** across the city. 
 
-The goal of this project was to create an **interactive and data-driven tool** that allows policymakers to **track trends, analyze arrest data, and make evidence-based decisions** regarding law enforcement and public safety initiatives.
+The goal of this project was to create an interactive and data-driven tool that allows policymakers to track trends, analyze arrest data, and make evidence-based decisions regarding law enforcement and public safety initiatives.
 
+Collaborators:  Michael Gelfand, Michael Hewlett
 ---
 
-## Project Goals & Contributions
+## Live Demo
 
-This project was designed to address the challenges of inconsistent, redundant, and fragmented arrest data across various NYC departments. Our solution provides a centralized and interactive dashboard that allows policymakers to:
-
-- **Monitor Trends** – Track the evolution of arrest rates across different crime types, demographics, and locations.
-- **Enhance Decision-Making** – Use data-driven insights to inform policy changes and resource allocation.
-- **Optimize Law Enforcement Initiatives** – Measure the effectiveness of public safety campaigns.
-- **Improve Data Accessibility** – Consolidate arrest statistics into a single, intuitive visualization tool.
-
-
----
+![](../images/demo.gif)
 
 ## Technical Implementation
 
-### Data Processing & Engineering
-- **Cleaned and structured** arrest data for efficient visualization.
-- **Handled missing values and standardized variables** for accuracy.
-- **Optimized data formats** for interactive dashboard integration.
-
-### Dashboard Development
-- **Built interactive visualizations** using Plotly & Dash.
-- **Implemented data filtering** to allow customized user analysis.
-- **Optimized map rendering** for smooth, real-time exploration.
-
-### Deployment & UI/UX
-- **Containerized dashboard using Docker** for seamless deployment.
-- **Designed user-friendly navigation** for intuitive decision-making.
+- **Designing a responsive sidebar** with custom filters for crime type, precinct vs. borough, and date ranges
+- **Creating the calendar-based date selector** to allow time-based analysis
+- **Improving dashboard performance** with function caching using `Flask-Caching`
+- **Cleaning and transforming geographic and demographic datasets** using `pandas` and `GeoPandas`
+- **Coordinating version control** with GitHub issues, branches, and pull requests
+- **Writing documentation** including the final README and setup instructions
 
 
 ## App Sketch & Design
 
 ![](../images/nyc.png)
-
-
-
-The dashboard consists of:
-
-- **Interactive NYC Map** – Displays precinct-level arrest data.  
-- **Bar Chart** – Visualizes crime frequency with drill-down capabilities.  
-- **Time-Series Density Plot** – Tracks arrest trends across time.  
-- **Pie Charts** – Show arrest distributions by age and gender.  
-- **Sidebar** – Allows filtering by date, location, and crime type.  
-
-This structured design ensures fast and intuitive exploration of arrest trends.
 
 
 
@@ -92,6 +66,7 @@ This project highlights the real-world impact of data science in law enforcement
 
 [Github Repository](https://github.com/UBC-MDS/DSCI-532_2025_22_nyc-arrest-tracker){.btn .btn-outline-dark}
 
+[Explore the Dashboard](https://dsci-532-2025-22-nyc-arrest-tracker.onrender.com){.btn .btn-outline-dark}
 
 
 

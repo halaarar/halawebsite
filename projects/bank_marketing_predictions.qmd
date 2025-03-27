@@ -34,6 +34,7 @@ The goal was to develop a predictive model that helps banks:
 
 This project incorporated end-to-end data science workflows, data preprocessing, and model evaluation to identify the most effective approach for targeted marketing.
 
+Collaborators: Fazeeia Mohammad, Rong Wan
 ---
 
 ## Project Goals & Contributions
