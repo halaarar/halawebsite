@@ -16,14 +16,16 @@ about:
 ---
 
 <br>
----
+
 ::: {.center-content}
 ## Explore My Portfolio!
 :::
 
 ::: {style="display: flex; justify-content: center; gap: 100px; margin: 30px 0;"}
 ::: {.grid-item style="width: 300px;"}
+::: {.center-content}
 ![](images/projects.png){width=150px}
+:::
 
 ### Projects
 
@@ -33,7 +35,9 @@ Explore my data science and programming projects.
 :::
 
 ::: {.grid-item style="width: 300px;"}
+::: {.center-content}
 ![](images/education.png){width=150px}
+:::
 
 ### Education
 
