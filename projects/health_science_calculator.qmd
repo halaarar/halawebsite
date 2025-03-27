@@ -45,8 +45,6 @@ Collaborators: Akosua, Jiayi Li, Tengwei Wang
 
 ## Technical Implementation  
 
-### Core Functionality  
-
 This package includes the following key functions:  
 
 - `get_tdee()`: Calculates Total Daily Energy Expenditure (TDEE) based on BMR and activity level.  
@@ -57,6 +55,7 @@ This package includes the following key functions:
 
 Each function was carefully tested to ensure accuracy and reliability.
 
+---
 
 ## Key Takeaways & Impact
 This project strengthened my skills in:  

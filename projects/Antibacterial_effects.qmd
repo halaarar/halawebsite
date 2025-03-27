@@ -20,45 +20,40 @@ about:
 
 ## Overview
 
-This self-led experimental project explored the **antibacterial properties of honey and tea tree oil** against gram-negative bacteria. I independently designed and conducted a full experiment — from forming a research question to analyzing the results using R — applying both **experimental methods** and **statistical modeling** to evaluate the effectiveness of natural antibiotics.
+This self-led experimental project explored the antibacterial properties of honey and tea tree oil against gram-negative bacteria. I independently designed and conducted a full experiment — from forming a research question to analyzing the results using R — applying both experimental methods and statistical modeling to evaluate the effectiveness of natural antibiotics.
 
 ---
 
 
-### My Role
+### Project Goals & Contributions
 
-- **Designed the entire experimental setup** including controls, treatments, and randomized testing
-- **Collected and cultured bacterial samples** from real biological sources
-- **Prepared varying concentrations (0%, 50%, 100%)** of honey and tea tree oil
-- **Controlled environmental conditions** across two locations (bedroom and basement)
-- **Performed bacterial colony counting (CFU)** and logged observations across 24 test samples
-- **Wrote and executed R code** for data wrangling, model fitting, ANOVA, interaction plots, and residual diagnostics
-- Used **`lm()` models, contrasts, and Tukey tests** to assess significance of location, antibiotic, and concentration
+- Designed the entire experimental setup including controls, treatments, and randomized testing
+- Collected and cultured bacterial samples from real biological sources
+- Prepared varying concentrations (0%, 50%, 100%) of honey and tea tree oil
+- Controlled environmental conditions across two locations (bedroom and basement)
+- Performed bacterial colony counting (CFU) and logged observations across 24 test samples
+- Wrote and executed R code for data wrangling, model fitting, ANOVA, interaction plots, and residual diagnostics
+- Used `lm()` models, contrasts, and Tukey tests to assess significance of location, antibiotic, and concentration
 
+---
+
+### Technical and Scientific Implementation 
+
+- R (base, gmodels) for modeling, plotting, and contrast analysis  
+- Experimental Design principles (randomization, controls, blocks)  
+- Data Wrangling and exploratory data visualization  
+- Hypothesis Testing & Interpretation using ANOVA and linear models
 ---
 
 ### Key Takeaways
 
-- Applied **real-world data science methods** to a biology problem from scratch
-- Practiced designing **reproducible experiments** and manually collecting primary data
-- Developed comfort with **statistical modeling**, including multi-factor ANOVA and model diagnostics
-- Learned that **results can be inconclusive** — and how to frame findings in a scientific context
-- Strengthened skills in **scientific writing, research methodology, and R scripting**
+- Applied real-world data science methods to a biology problem from scratch
+- Practiced designing reproducible experiments and manually collecting primary data
+- Developed comfort with statistical modeling, including multi-factor ANOVA and model diagnostics
+- Strengthened skills in scientific writing, research methodology, and R scripting
 
----
 
-### Tools & Techniques
-
-- **R (base, gmodels)** for modeling, plotting, and contrast analysis  
-- **Experimental Design** principles (randomization, controls, blocks)  
-- **Data Wrangling** and exploratory data visualization  
-- **Hypothesis Testing & Interpretation** using ANOVA and linear models
-
----
-
-### Outcome
-
-While results did not find statistically significant differences between treatments, this project deepened my understanding of **experimental variability**, **data limitations**, and the value of a clear, reproducible workflow. It showcased my ability to design, execute, and interpret full-stack analytical work — a skill I bring to all my data science projects.
+While results did not find statistically significant differences between treatments, this project deepened my understanding of experimental variability, data limitations, and the value of a clear, reproducible workflow. It showcased my ability to design, execute, and interpret full-stack analytical work — a skill I bring to all my data science projects.
 
 
 

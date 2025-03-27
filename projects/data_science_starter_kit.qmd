@@ -25,30 +25,9 @@ about:
 --- 
 
 ## Overview
-The **Data Science Starter Kit Blog** is a **beginner-friendly** resource designed to help aspiring data scientists navigate **fundamental concepts** and practical tools.  
+The Data Science Starter Kit Blog is a beginner-friendly resource designed to help aspiring data scientists navigate fundamental concepts and practical tools.  
 
-This project aims to **simplify the learning process** by offering **step-by-step tutorials, code examples, and educational content** to build a strong foundation in data science.
-
----
-
-## Project Goals & Contributions
-
-- **Authored educational blog posts** covering topics such as:
-  - **Git & Version Control** – Managing and tracking code efficiently.
-  - **Data Visualization** – Using Python libraries for storytelling with data.
-- **Developed hands-on tutorials and code examples**, guiding beginners through essential data science workflows.
-- **Maintained a GitHub repository** with **code snippets, datasets, and Jupyter Notebooks** to complement the blog content.
-- **Created a promotional video** to increase engagement and drive traffic to the blog.
-
----
-
-## Technical Implementation
-
-### **Technologies & Skills Used**
-- **Python** – Writing clean and reproducible code.  
-- **Git & GitHub** – Implementing version control for collaboration and project tracking.  
-- **Technical Writing** – Explaining complex topics in an accessible way.  
-- **Content Creation & Video Editing** – Producing engaging educational material.  
+This project aims to simplify the learning process by offering step-by-step tutorials, code examples, and educational content to build a strong foundation in data science.
 
 ---
 
@@ -57,10 +36,10 @@ This project aims to **simplify the learning process** by offering **step-by-ste
 
 Through this project, I strengthened my skills in:
 
-- **Technical Communication** – Writing clear, structured explanations for data science concepts.
-- **Software Development & Best Practices** – Using GitHub for version control and project management.
-- **Educational Content Creation** – Designing learning materials for data science beginners.
-- **Community Engagement** – Promoting knowledge-sharing through accessible online resources.
+- Technical Communication – Writing clear, structured explanations for data science concepts.
+- Software Development & Best Practices – Using GitHub for version control and project management.
+- Educational Content Creation– Designing learning materials for data science beginners.
+- Community Engagement – Promoting knowledge-sharing through accessible online resources.
 
 
 [Github Repository](https://github.com/halaarar/Data-Science-Starter-Kit-Blog){.btn .btn-outline-dark}

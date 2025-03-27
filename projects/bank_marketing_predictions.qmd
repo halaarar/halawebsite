@@ -26,73 +26,71 @@ about:
 
 The Bank Marketing Prediction collaborative Project applies machine learning techniques to enhance bank marketing strategies by predicting whether a customer will subscribe to a term deposit based on demographic and campaign-related data.
 
-The goal was to develop a predictive model that helps banks:
-
-- **Optimize resource allocation**  
-- **Minimize marketing costs**  
-- **Improve customer conversion rates**
-
-This project incorporated end-to-end data science workflows, data preprocessing, and model evaluation to identify the most effective approach for targeted marketing.
+The goal was to develop a predictive model that helps banks optimize resource allocation, minimize marketing costs, improve customer conversion rates This project incorporated end-to-end data science workflows, data preprocessing, and model evaluation to identify the most effective approach for targeted marketing.
 
 Collaborators: Fazeeia Mohammad, Rong Wan
 ---
 
 ## Project Goals & Contributions
 
-This project focused on **developing a scalable and automated machine learning workflow** to improve marketing strategies. The main objectives and contributions include:
+This project focused on developing a scalable and automated machine learning workflow to improve marketing strategies. The main objectives and contributions include:
 
-- **Predicting Customer Subscription Behavior**: Building predictive models to classify customer responses based on demographic and campaign-related data.  
-- **Optimizing Marketing Strategies**: Identifying patterns in customer responses to enhance targeting and reduce marketing costs.  
-- **Building a Fully Reproducible Machine Learning Pipeline**: Developing an end-to-end pipeline using Python, Jupyter Notebooks, and GitHub Actions.  
-- **Automating Data Processing & Model Training**: Implementing a structured workflow using **Click, Docker, and Makefiles** to ensure automation.  
-- **Enhancing Model Interpretability**: Using feature importance analysis to provide insights into the key factors influencing customer behavior.   
-- **Effectively Communicating Insights**: Presenting findings through structured reports and **data-driven presentations** to stakeholders.  
+- Predicting Customer Subscription Behavior: Building predictive models to classify customer responses based on demographic and campaign-related data.  
+- Optimizing Marketing Strategies: Identifying patterns in customer responses to enhance targeting and reduce marketing costs.  
+- Building a Fully Reproducible Machine Learning Pipeline: Developing an end-to-end pipeline using Python, Jupyter Notebooks, and GitHub Actions.  
+- Automating Data Processing & Model Training: Implementing a structured workflow using Click, Docker, and Makefiles to ensure automation.  
+- Enhancing Model Interpretability: Using feature importance analysis to provide insights into the key factors influencing customer behavior.   
+- Effectively Communicating Insights: Presenting findings through structured reports and data-driven presentations to stakeholders.  
 
 
 ---
 
 ## Technical Implementation
 
-### Data Preprocessing & Feature Engineering
+Data Preprocessing & Feature Engineering
+
 - Cleaned, standardized, and structured raw customer data.  
 - Applied feature scaling and categorical encoding.  
 - Handled missing values and class imbalance issues to improve model performance.  
 
-### Machine Learning Models & Performance Evaluation
-- Built **Logistic Regression** and **Decision Tree Classifier** models.  
+Machine Learning Models & Performance Evaluation
+
+- Built Logistic Regression and Decision Tree Classifier models.  
 - Tuned hyperparameters to improve precision, recall, and overall accuracy.  
-- Compared models based on **accuracy, precision, recall, and F1 score**.  
+- Compared models based on accuracy, precision, recall, and F1 score.  
 - Identified trade-offs between false positives and false negatives for better marketing decisions.  
 
-### Automating Workflows with Docker & Makefile
+Automating Workflows with Docker & Makefile
+
 - Dockerized the project for reproducibility and easy deployment.  
 - Used Makefiles to automate data processing, model training, and reporting.  
 
-### Running the Analysis
-- Set up a **Docker container** to allow for easy execution of the project.  
-- Automated data processing and model training using **Makefile** workflows.  
+Running the Analysis
+
+- Set up a Docker container to allow for easy execution of the project.  
+- Automated data processing and model training using Makefile workflows.  
 - Generated structured reports detailing model performance and business recommendations.  
 
 ---
 
 ## Presenting the Findings
-To ensure **stakeholders could easily interpret and apply model insights**, we developed a **presentation** that:  
+To ensure stakeholders could easily interpret and apply model insights, we developed a presentation that:  
 
 - Simplified complex machine learning concepts.
 - Highlighted the most impactful findings from model evaluation.  
-- Provided **clear, data-driven recommendations** to enhance marketing strategies.  
+- Provided clear, data-driven recommendations to enhance marketing strategies.  
 
-By combining **technical depth with actionable insights**, this presentation helped decision-makers understand **how AI-driven marketing could improve customer outreach and conversion rates**.
+By combining technical depth with actionable insights, this presentation helped decision-makers understand how AI-driven marketing could improve customer outreach and conversion rates.
 
 ---
 
 ## Key Takeaways & Impact
 This project strengthened my skills in:  
 
-- **Building scalable ML models** – End-to-end data science workflows. 
-- **Data Engineering & Pipelines** – Automating data processing and model training.  
-- **Version Control & Collaboration** – Managing contributions via GitHub.  
-- **Effective Communication** – Presenting data insights in a structured and compelling format.  
+- Building scalable ML models – End-to-end data science workflows. 
+- Data Engineering & Pipelines – Automating data processing and model training.  
+- Version Control & Collaboration – Managing contributions via GitHub.  
+- Effective Communication – Presenting data insights in a structured and compelling format.  
 
 [Github Repository](https://github.com/UBC-MDS/BankMarketingPreditions-/blob/main/reports/bank_marketing_analysis.ipynb){.btn .btn-outline-dark}
 

@@ -26,7 +26,7 @@ about:
 
 ## Overview
 
-The **NYPD Arrest Tracker App** is a collaborative data science project aimed at providing NYC government executives with a unified dashboard for monitoring arrest statistics** across the city. 
+The NYPD Arrest Tracker App is a collaborative data science project aimed at providing NYC government executives with a unified dashboard for monitoring arrest statistics** across the city. 
 
 The goal of this project was to create an interactive and data-driven tool that allows policymakers to track trends, analyze arrest data, and make evidence-based decisions regarding law enforcement and public safety initiatives.
 
@@ -39,12 +39,12 @@ Collaborators:  Michael Gelfand, Michael Hewlett
 
 ## Technical Implementation
 
-- **Designing a responsive sidebar** with custom filters for crime type, precinct vs. borough, and date ranges
-- **Creating the calendar-based date selector** to allow time-based analysis
-- **Improving dashboard performance** with function caching using `Flask-Caching`
-- **Cleaning and transforming geographic and demographic datasets** using `pandas` and `GeoPandas`
-- **Coordinating version control** with GitHub issues, branches, and pull requests
-- **Writing documentation** including the final README and setup instructions
+- Designing a responsive sidebar with custom filters for crime type, precinct vs. borough, and date ranges
+- Creating the calendar-based date selector to allow time-based analysis
+- Improving dashboard performance with function caching using `Flask-Caching`
+- Cleaning and transforming geographic and demographic datasets using `pandas` and `GeoPandas`
+- Coordinating version control with GitHub issues, branches, and pull requests
+- Writing documentation including the final README and setup instructions
 
 
 ## App Sketch & Design
@@ -56,10 +56,10 @@ Collaborators:  Michael Gelfand, Michael Hewlett
 ## Key Takeaways & Impact
 Through this project, I gained experience in:
 
-- **Data Engineering** – Processing large-scale NYC arrest records.
-- **Data Visualization** – Developing interactive dashboards for government use.
-- **Policy Analytics** – Using data science to drive public safety decisions.
-- **Public Sector UI/UX** – Creating user-friendly tools for non-technical stakeholders.
+- Data Engineering – Processing large-scale NYC arrest records.
+- Data Visualization – Developing interactive dashboards for government use.
+- Policy Analytics – Using data science to drive public safety decisions.
+- Public Sector UI/UX – Creating user-friendly tools for non-technical stakeholders.
 
 This project highlights the real-world impact of data science in law enforcement and public policy.
 
