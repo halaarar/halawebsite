@@ -20,6 +20,8 @@ website:
             text: NYC Arrest Dashboard
           - href: projects/data_science_starter_kit.qmd
             text: Data Science Starter Kit
+          - href: projects/Antibacterial_effects.qmd
+            text: Natural Antibiotics Study
       - href: Education.qmd
         text: Education
 

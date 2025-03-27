@@ -15,8 +15,8 @@ about:
       href: mailto:halaosama92@yahoo.com
 ---
 
-
 :::{.grid-container}
+
 <div class="grid-item">
   <img src="images/med.png" width="100px">
   <h3>Health Science Calculator</h3>
@@ -31,7 +31,6 @@ about:
   <a href="projects/bank_marketing_predictions.qmd" class="btn btn-outline-dark">Read More</a>
 </div>
 
-
 <div class="grid-item">
   <img src="images/blog.png" width="100px">
   <h3>Data Science Starter Kit Blog</h3>
@@ -45,8 +44,15 @@ about:
   <p>Interactive dashboard analyzing NYC crime data.</p>
   <a href="projects/nyc_arrest_dashboard.qmd" class="btn btn-outline-dark">Read More</a>
 </div>
-:::
 
+<div class="grid-item">
+  <img src="images/bacteria.png" width="100px">
+  <h3>Natural Antibiotics Study</h3>
+  <p>Experimental project exploring the antibacterial effects of honey and tea tree oil.</p>
+  <a href="projects/Antibacterial_effects.qmd" class="btn btn-outline-dark">Read More</a>
+</div>
+
+:::
 
 <div class="center-content">
   
