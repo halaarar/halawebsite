@@ -26,15 +26,33 @@ about:
 
 I am currently pursuing my Master's in Data Science at the University of British Columbia, driven by my passion for statistics and machine learning. I was drawn to this program because of my strong interest in solving complex real-world problems using data-driven insights—particularly in healthcare and finance.
 
-I have a deep curiosity for mathematical concepts and their interdisciplinary applications, and this program has allowed me to refine my skills in:
+Throughout the program, I’ve worked on collaborative projects, applying these skills to real-world datasets. You can find more details on my [Projects page](/projects.qmd).
 
-- Programming: Python, R
-- Data Engineering: SQL, version control (Git)
-- Machine Learning: Supervised learning, algorithms & data structures
-- Data Analysis & Visualization: Pandas, NumPy, Matplotlib, Seaborn
-- Statistical Foundations: Experimental design, hypothesis testing, probability
+### Programming & Tools
+- Python, R, SQL, Git, Bash, Docker, GitHub Workflows
 
-Throughout the program, I’ve worked on collaborative projects, applying these skills to real-world datasets. You can find more details on my Projects page. Additionally, I will be working on a capstone project with an industry partner to tackle a real-world business challenge using data science.
+### Data Engineering
+- Databases (SQL), Data Pipelines, Cloud Computing, Web & Cloud Tools
+
+### Machine Learning
+- Supervised Learning (Logistic Regression, Decision Trees, SVM, XGBoost)
+- Unsupervised Learning (K-Means, PCA, Hierarchical Clustering)
+- Feature Engineering, Model Evaluation, Advanced ML Topics
+
+### Statistics & Experimentation
+- Descriptive & Inferential Statistics, Probability, Hypothesis Testing
+- Regression Analysis, Causal Inference, Experimental Design
+
+### Visualization & Communication
+- Data Visualization (Matplotlib, Seaborn, ggplot2)
+- Communication for Stakeholders, Argumentation & Storytelling
+
+
+### Capstone
+I will be working on a capstone project with an industry partner to tackle a real-world business challenge using data science.
+
+### Sports Representative 
+In addition to my coursework, I served as the Sports Representative for the MDS cohort, organizing recreational events such as volleyball, water wars, skating nights, and a ski trip. These experiences strengthened my leadership, event planning, and team-building skills.
 
 ---
 
@@ -43,33 +61,29 @@ Throughout the program, I’ve worked on collaborative projects, applying these 
 
 <img src="images/trent.png" alt="Trent Logo" width="130" class="mx-auto d-block">
 
-I completed my undergraduate degree in Biomedical Sciences with a Minor in Mathematics at Trent University. My academic journey was shaped by my dual passion for biology and mathematics, which led me to a degree that merges both disciplines.
+I completed my undergraduate degree in Biomedical Sciences with a Minor in Mathematics at Trent University. My academic journey was shaped by my dual passion for biology and mathematics, which led me to a degree that merges both disciplines. During my degree, I explored various disciplines, gaining a solid understanding of biological, chemical, and mathematical principles relevant to data science and healthcare analytics.
 
 ### Academic Achievements
 - Awarded a Renewable Entrance Scholarship for maintaining a high academic standing (90-95% entry average).
 - Consistently placed on the Dean’s Honour Roll, earning recognition each semester.
 - Achieved a perfect 100% in two advanced statistics courses—despite entering with no prior statistical background.
 
-### Scientific & Mathematical Foundations
-During my degree, I explored various disciplines, gaining a solid understanding of biological, chemical, and mathematical principles relevant to data science and healthcare analytics.
 
+### Mathematics & Statistics
+- Calculus I & II, Linear Algebra, Euclidean Geometry
+- Ordinary Differential Equations (ODEs), Discrete Structures
+- Probability & Applied Statistics, Linear Programming
 
-#### Biomedical Sciences
+### Biomedical Sciences
 - Human & Animal Anatomy and Physiology
 - Histology, Molecular Biology, Cell Biology, Genetics
 - Microbiology, Biomedical Ethics, Evolution, Nutrition
 - Psychology & Neuroscience
 
-#### Chemistry
+### Chemistry
 - Introductory Chemistry, Organic Chemistry
 - Protein Chemistry & Enzymology, Biochemistry
 
-#### Mathematics & Statistics
-- Calculus I & II, Linear Algebra, Euclidean Geometry
-- Ordinary Differential Equations (ODEs), Discrete Structures
-- Probability & Applied Statistics, Linear Programming
-
-
-#### Finance & Accounting
+### Finance & Accounting
 - Financial Accounting, Global Finance
 
