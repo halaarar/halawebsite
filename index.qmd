@@ -16,29 +16,33 @@ about:
 ---
 
 <br>
-
 ---
-
-<div class="center-content">
+::: {.center-content}
 ## Explore My Portfolio!
-</div>
-
-:::{.grid-container}
-<div class="grid-item">
-  <img src="images/projects.png" width="150px">
-  <h3>Projects</h3>
-  <p>Explore my data science and programming projects.</p>
-  <a href="projects.qmd" class="btn btn-outline-dark">View Projects</a>
-</div>
-
-<div class="grid-item">
-  <img src="images/education.png" width="150px">
-  <h3>Education</h3>
-  <p>Learn about my academic background and qualifications.</p>
-  <a href="Education.qmd" class="btn btn-outline-dark">View Education</a>
-</div>
 :::
 
-<div class="center-content">
-  <a href="https://github.com/halaarar" class="btn btn-outline-dark">Visit My GitHub</a>
-</div>
+::: {style="display: flex; justify-content: center; gap: 100px; margin: 30px 0;"}
+::: {.grid-item style="width: 300px;"}
+![](images/projects.png){width=150px}
+
+### Projects
+
+Explore my data science and programming projects.
+
+[View Projects](projects.qmd){.btn .btn-outline-dark}
+:::
+
+::: {.grid-item style="width: 300px;"}
+![](images/education.png){width=150px}
+
+### Education
+
+Learn about my academic background and qualifications.
+
+[View Education](Education.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.center-content}
+[Visit My GitHub](https://github.com/halaarar){.btn .btn-outline-dark}
+:::

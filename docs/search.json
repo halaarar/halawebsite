@@ -257,5 +257,12 @@
     "title": "Education",
     "section": "Bachelor’s in Biomedical Sciences - Trent University (September 2020 - April 2024)",
     "text": "Bachelor’s in Biomedical Sciences - Trent University (September 2020 - April 2024)\n\nI completed my undergraduate degree in Biomedical Sciences with a Minor in Mathematics at Trent University. My academic journey was shaped by my dual passion for biology and mathematics, which led me to a degree that merges both disciplines.\n\nAcademic Achievements\n\nAwarded a Renewable Entrance Scholarship for maintaining a high academic standing (90-95% entry average).\nConsistently placed on the Dean’s Honour Roll, earning recognition each semester.\nAchieved a perfect 100% in two advanced statistics courses—despite entering with no prior statistical background.\n\n\n\nScientific & Mathematical Foundations\nDuring my degree, I explored various disciplines, gaining a solid understanding of biological, chemical, and mathematical principles relevant to data science and healthcare analytics.\n\nBiomedical Sciences\n\nHuman & Animal Anatomy and Physiology\nHistology, Molecular Biology, Cell Biology, Genetics\nMicrobiology, Biomedical Ethics, Evolution, Nutrition\nPsychology & Neuroscience\n\n\n\nChemistry\n\nIntroductory Chemistry, Organic Chemistry\nProtein Chemistry & Enzymology, Biochemistry\n\n\n\nMathematics & Statistics\n\nCalculus I & II, Linear Algebra, Euclidean Geometry\nOrdinary Differential Equations (ODEs), Discrete Structures\nProbability & Applied Statistics, Linear Programming\n\n\n\nFinance & Accounting\n\nFinancial Accounting, Global Finance"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hala Arar",
+    "section": "",
+    "text": "&lt;img src=\"images/projects.png\" width=\"150px\"&gt;\n&lt;h3&gt;Projects&lt;/h3&gt;\n&lt;p&gt;Explore my data science and programming projects.&lt;/p&gt;\n&lt;a href=\"projects.qmd\" class=\"btn btn-outline-dark\"&gt;View Projects&lt;/a&gt;\n\n\n&lt;img src=\"images/education.png\" width=\"150px\"&gt;\n&lt;h3&gt;Education&lt;/h3&gt;\n&lt;p&gt;Learn about my academic background and qualifications.&lt;/p&gt;\n&lt;a href=\"Education.qmd\" class=\"btn btn-outline-dark\"&gt;View Education&lt;/a&gt;\n\n\nVisit My GitHub"
   }
 ]
