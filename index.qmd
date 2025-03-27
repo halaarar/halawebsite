@@ -15,24 +15,30 @@ about:
       href: mailto:halaosama92@yahoo.com
 ---
 
+<br>
 
 ---
 
+<div class="center-content">
+## Explore My Portfolio!
+</div>
 
-<br>
+:::{.grid-container}
+<div class="grid-item">
+  <img src="images/projects.png" width="150px">
+  <h3>Projects</h3>
+  <p>Explore my data science and programming projects.</p>
+  <a href="projects.qmd" class="btn btn-outline-dark">View Projects</a>
+</div>
 
-## Explore My Portfolio!  
-
-::: {.grid}
-
-::: {.g-col-6}
-[![Projects](images/projects.png){width=150px}](projects.qmd)  
-[Projects](projects.qmd)
+<div class="grid-item">
+  <img src="images/education.png" width="150px">
+  <h3>Education</h3>
+  <p>Learn about my academic background and qualifications.</p>
+  <a href="Education.qmd" class="btn btn-outline-dark">View Education</a>
+</div>
 :::
 
-::: {.g-col-6}
-[![Education](images/education.png){width=150px}](Education.qmd)  
-[Education](Education.qmd)
-:::
-
-:::
+<div class="center-content">
+  <a href="https://github.com/halaarar" class="btn btn-outline-dark">Visit My GitHub</a>
+</div>
