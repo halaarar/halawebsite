@@ -16,7 +16,7 @@ about:
 ---
 
 <br>
-
+---
 ::: {.center-content}
 ## Explore My Portfolio!
 :::
