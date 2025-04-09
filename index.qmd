@@ -1,6 +1,6 @@
 ---
 title: "Hala Arar"
-image: "hala-profile.jpg"
+image: "hala-profile2.jpeg"
 about:
   template: jolla
   links:
